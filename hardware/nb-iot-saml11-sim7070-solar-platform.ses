@@ -1,0 +1,2957 @@
+
+(session "nb-iot-saml11-sim7070-solar-platform.ses"
+  (base_design "nb-iot-saml11-sim7070-solar-platform.dsn")
+  (placement
+    (resolution um 10)
+    (component MountingHole:MountingHole_3.2mm_M3_Pad_Via
+      (place REF4 672500 -937500 front 0)
+    )
+    (component MountingHole:MountingHole_3.2mm_M3_Pad_Via::1
+      (place REF5 1442500 -937500 front 0)
+    )
+    (component MountingHole:MountingHole_3.2mm_M3_Pad_Via::2
+      (place REF6 1442500 -217500 front 0)
+    )
+    (component "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+      (place REF0 673100 -284480 front 0)
+    )
+    (component MountingHole:MountingHole_3.2mm_M3_Pad_Via::3
+      (place REF3 672500 -217500 front 0)
+    )
+    (component "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+      (place JP7 1290320 -576580 front 180)
+      (place JP9 1161900 -576580 front 180)
+    )
+    (component "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
+      (place JP6 1361140 -576580 front 180)
+      (place JP8 1082040 -576580 front 180)
+      (place JP5 1221740 -576580 front 180)
+    )
+    (component "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels::1"
+      (place JP12 1544320 -581660 front 0)
+      (place JP1 1430020 -640080 front 0)
+    )
+    (component "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels::2"
+      (place JP4 1402080 -767080 front 270)
+    )
+    (component "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm::1"
+      (place JP3 650240 -384960 front 270)
+    )
+    (component "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+      (place JP2 675640 -384960 front 270)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-5"
+      (place U10 1318260 -220820 front 90)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+      (place R28 1386840 -220980 front 270)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::1
+      (place R27 1346200 -220980 front 90)
+    )
+    (component "Inductor_SMD:L_Taiyo-Yuden_MD-5050"
+      (place L6 1247140 -220600 front 270)
+    )
+    (component "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm::1"
+      (place JP11 601980 -607060 front 0)
+    )
+    (component "Diode_SMD:D_SOD-123"
+      (place D5 1287780 -220980 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+      (place C37 1366520 -220980 front 270)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::2
+      (place R20 679450 -869950 front 90)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
+      (place C17 961380 -525900 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::1
+      (place C5 798820 -495205 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::2
+      (place C29 1494575 -368420 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::3
+      (place C6 1291580 -779900 front 90)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::3
+      (place R11 1103620 -866100 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::4
+      (place C3 1164580 -952405 front 270)
+    )
+    (component Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place L3 632460 -647700 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::5
+      (place C11 1381760 -640080 front 180)
+    )
+    (component Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+      (place C14 601980 -716280 front 270)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-6"
+      (place D8 1007100 -635120 front 270)
+    )
+    (component footprints:MODULE_SIM7070G
+      (place U9 778500 -708780 front 90)
+    )
+    (component LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place D9 730250 -950050 front 90)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::6
+      (place C15 603240 -487800 front 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+      (place R23 586740 -716280 front 270)
+    )
+    (component "Inductor_SMD:L_Taiyo-Yuden_MD-5050::1"
+      (place L2 656580 -470020 front 0)
+    )
+    (component Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (place L4 601980 -647700 front 90)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+      (place U2 1007100 -505100 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::7
+      (place C13 844380 -866260 front 0)
+    )
+    (component footprints:IC_H11L1SR2M
+      (place U4 1271260 -678300 front 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::4
+      (place R5 1447800 -586620 front 270)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::5
+      (place R18 946140 -630040 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::6
+      (place R14 1117600 -576580 front 90)
+    )
+    (component "footprints:GHI-CONNECTORS_U.FL-R-SMT-1"
+      (place GPS_ANT1 558033 -656590 front 90)
+    )
+    (component "footprints:CFPS-109"
+      (place X1 1149340 -830915 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::8
+      (place C24 661660 -551300 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::7
+      (place R10 1433820 -764660 front 90)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::9
+      (place C25 661660 -571620 front 180)
+    )
+    (component "footprints:BAT_BH-18650-PC"
+      (place BT1 1084570 -363340 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::8
+      (place R17 946140 -609720 front 180)
+    )
+    (component "Diode_SMD:D_SOD-123::1"
+      (place D3 661660 -353180 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::9
+      (place R7 1433820 -866300 front 270)
+    )
+    (component "Package_SO:MSOP-8_3x3mm_P0.65mm"
+      (place U3 1125220 -231140 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::10
+      (place R24 603250 -565150 front 180)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::10
+      (place C9 798820 -536060 front 270)
+    )
+    (component LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder::1
+      (place D6 755650 -950050 front 90)
+    )
+    (component "Connector_Molex:Molex_SL_171971-0004_1x04_P2.54mm_Vertical"
+      (place J2 1371600 -510660 front 0)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
+      (place C23 937250 -220090 front 90)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (place J9 1092200 -797410 front 180)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder::1"
+      (place C16 903220 -525140 front 270)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::11
+      (place FB2 858670 -236340 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::11
+      (place C30 1499860 -581780 front 0)
+    )
+    (component Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+      (place F1 661660 -325240 front 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::12
+      (place R16 844380 -962780 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::12
+      (place C33 1315720 -612140 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::13
+      (place C31 1112520 -200660 front 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::13
+      (place R25 1308100 -736600 front 0)
+    )
+    (component "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+      (place U6 1400800 -688460 front 0)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder::1"
+      (place C22 1013450 -220090 front 90)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::14
+      (place C1 1149340 -779900 front 90)
+    )
+    (component "Package_QFP:TQFP-32_7x7mm_P0.8mm"
+      (place U7 1230620 -876420 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::15
+      (place C35 1037580 -635120 front 270)
+    )
+    (component Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder::2
+      (place L5 603250 -584200 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::16
+      (place C12 885180 -866260 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::14
+      (place R13 1257300 -576580 front 90)
+    )
+    (component "Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical"
+      (place J1 590540 -343020 front 270)
+    )
+    (component "footprints:GCT_SIM8066-6-1-14-01-A_REVA"
+      (place J8 996940 -769215 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::17
+      (place C27 1144260 -856315 front 180)
+    )
+    (component "Diode_SMD:D_SOD-123::2"
+      (place D4 1012180 -561460 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::15
+      (place R26 1165860 -736600 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::18
+      (place C28 1479550 -866300 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::19
+      (place C4 1184900 -952620 front 270)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder::2"
+      (place C20 900420 -220090 front 90)
+    )
+    (component Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder
+      (place F2 774700 -217290 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::16
+      (place FB1 1144260 -952405 front 270)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder::3"
+      (place C32 1197600 -220940 front 90)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder::4"
+      (place C19 975350 -220090 front 90)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::17
+      (place R21 654050 -869950 front 270)
+    )
+    (component "Inductor_SMD:L_Taiyo-Yuden_MD-5050::2"
+      (place L1 1220460 -774820 front 180)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::20
+      (place C34 1173480 -612140 front 90)
+    )
+    (component Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder::1
+      (place C8 632460 -716280 front 90)
+    )
+    (component "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm::1"
+      (place U5 864700 -911980 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::21
+      (place C26 1123940 -825620 front 270)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::18
+      (place R9 1454140 -764660 front 90)
+    )
+    (component "footprints:GHI-CONNECTORS_U.FL-R-SMT-1::1"
+      (place GSM_ANT1 558033 -708660 front 90)
+    )
+    (component "Diode_SMD:D_SOD-123::3"
+      (place D2 857250 -203200 front 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::19
+      (place R6 666740 -411600 front 0)
+    )
+    (component Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder::2
+      (place C10 617220 -647700 front 90)
+    )
+    (component "Connector_Molex:Molex_SL_171971-0004_1x04_P2.54mm_Vertical::1"
+      (place J7 1092200 -510660 front 0)
+    )
+    (component "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+      (place U1 737860 -495420 front 0)
+    )
+    (component "Connector_Molex:Molex_SL_171971-0006_1x06_P2.54mm_Vertical"
+      (place J3 1510020 -754500 front 90)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::22
+      (place C7 1266180 -779685 front 90)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::20
+      (place R3 819140 -536060 front 90)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::21
+      (place R2 666740 -431920 front 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::22
+      (place R19 945980 -650360 front 180)
+    )
+    (component "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
+      (place Q1 723900 -876300 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::23
+      (place R4 1422400 -586620 front 90)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::24
+      (place R15 885180 -962780 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical
+      (place J5 1433870 -828210 front 90)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder::1
+      (place R22 617220 -716280 front 90)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::23
+      (place C2 1174740 -779900 front 90)
+    )
+    (component footprints:IC_H11L1SR2M::1
+      (place U8 1129020 -678300 front 0)
+    )
+    (component LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder::2
+      (place D7 1144260 -876420 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::25
+      (place R12 1037580 -500500 front 90)
+    )
+    (component "Connector_Molex:Molex_SL_171971-0006_1x06_P2.54mm_Vertical::1"
+      (place J4 1510020 -536060 front 90)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::24
+      (place C18 864860 -536060 front 270)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder::5"
+      (place C21 1051550 -220090 front 90)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::26
+      (place R8 1454150 -866300 front 270)
+    )
+    (component "Connector_Molex:Molex_SL_171971-0004_1x04_P2.54mm_Vertical::2"
+      (place J6 1231900 -510660 front 0)
+    )
+    (component Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder::3
+      (place C36 586740 -647700 front 270)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::27
+      (place R1 758180 -525900 front 180)
+    )
+    (component "Diode_SMD:D_SOD-123::4"
+      (place D1 661660 -510660 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(6.0.7-1)-1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle Top 6000 0 0)
+        )
+        (shape
+          (circle Bottom 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle Top 6000 0 0)
+        )
+        (shape
+          (circle Bottom 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle Top 6000 0 0)
+        )
+        (shape
+          (circle Bottom 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle Top 6000 0 0)
+        )
+        (shape
+          (circle Bottom 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle Top 6000 0 0)
+        )
+        (shape
+          (circle Bottom 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net RF_ANT
+        (wire
+          (path Top 3302
+            632460 -707655
+            643223 -707655
+            644348 -708780
+          )
+        )
+        (wire
+          (path Top 3302
+            617220 -707155
+            631960 -707155
+            632460 -707655
+          )
+        )
+        (wire
+          (path Top 3302
+            658500 -708780
+            644348 -708780
+          )
+        )
+      )
+      (net "Net-(BT1-PadP)"
+        (wire
+          (path Top 6096
+            720070 -363340
+            720070 -323391
+          )
+        )
+        (wire
+          (path Top 6096
+            739950 -217290
+            739950 -303511
+            720070 -323391
+          )
+        )
+      )
+      (net VDDIO
+        (wire
+          (path Top 6096
+            1402080 -754080
+            1394234 -754080
+            1389030 -759284
+            1389030 -790394
+            1433870 -835234
+          )
+        )
+        (wire
+          (path Top 6096
+            1266580 -718217
+            1266580 -689481
+            1303161 -652900
+          )
+        )
+        (wire
+          (path Top 6096
+            1298100 -736600
+            1284963 -736600
+            1266580 -718217
+          )
+        )
+        (wire
+          (path Top 6096
+            1266580 -718217
+            1216010 -718217
+            1198742 -700949
+            1198742 -670347
+            1174070 -645675
+          )
+        )
+        (wire
+          (path Top 6096
+            1316310 -652900
+            1303161 -652900
+          )
+        )
+        (wire
+          (path Top 6096
+            900845 -856100
+            900845 -860970
+            895555 -866260
+          )
+        )
+        (wire
+          (path Top 6096
+            613250 -565150
+            613963 -565150
+            900845 -852032
+            900845 -856100
+          )
+        )
+        (wire
+          (path Top 6096
+            1103620 -856100
+            900845 -856100
+          )
+        )
+        (wire
+          (path Top 6096
+            1095040 -576580
+            1095040 -584856
+            1052364 -627532
+            1052364 -722819
+            1056700 -727155
+            1107177 -727155
+            1136241 -756219
+          )
+        )
+        (wire
+          (path Top 6096
+            1136241 -756219
+            1155860 -736600
+          )
+        )
+        (wire
+          (path Top 6096
+            1149340 -790275
+            1136241 -777176
+            1136241 -756219
+          )
+        )
+        (wire
+          (path Top 6096
+            1234740 -576580
+            1234740 -584050
+            1196275 -622515
+            1173480 -622515
+          )
+        )
+        (wire
+          (path Top 6096
+            1409053 -640080
+            1417020 -640080
+          )
+        )
+        (wire
+          (path Top 6096
+            1392135 -640080
+            1409053 -640080
+          )
+        )
+        (wire
+          (path Top 6096
+            1409053 -640080
+            1409053 -650499
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1424120 -686463
+            1419670 -690913
+            1419670 -814010
+            1433870 -828210
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1445653 -686463
+            1424120 -686463
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1409053 -650499
+            1424120 -665566
+            1424120 -686463
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1409053 -650499
+        )
+        (wire
+          (path Top 6096
+            1329123 -652900
+            1331242 -652900
+            1356872 -627270
+          )
+        )
+        (wire
+          (path Top 6096
+            1328786 -652900
+            1329123 -652900
+          )
+        )
+        (wire
+          (path Top 6096
+            1326845 -652900
+            1328786 -652900
+          )
+        )
+        (wire
+          (path Top 6096
+            1316310 -652900
+            1326845 -652900
+          )
+        )
+        (wire
+          (path Top 6096
+            1356872 -627270
+            1379325 -627270
+            1392135 -640080
+          )
+        )
+        (wire
+          (path Top 6096
+            1356872 -627270
+            1356872 -601765
+          )
+        )
+        (wire
+          (path Top 6096
+            1356872 -601765
+            1374140 -584497
+            1374140 -576580
+          )
+        )
+        (wire
+          (path Top 6096
+            1315720 -601765
+            1356872 -601765
+          )
+        )
+        (wire
+          (path Top 6096
+            1155860 -736600
+            1155860 -657961
+            1160921 -652900
+          )
+        )
+        (wire
+          (path Top 6096
+            1174070 -652900
+            1160921 -652900
+          )
+        )
+        (wire
+          (path Top 6096
+            1155944 -790275
+            1149340 -790275
+          )
+        )
+        (wire
+          (path Top 6096
+            1174070 -645675
+            1174070 -638451
+          )
+        )
+        (wire
+          (path Top 6096
+            1174070 -652900
+            1174070 -645675
+          )
+        )
+        (wire
+          (path Top 6096
+            1218620 -847470
+            1201669 -847470
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1164922 -847470
+            1201669 -847470
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1164922 -847470
+            1164922 -822787
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1144441 -927463
+            1144441 -867951
+            1164922 -847470
+          )
+        )
+        (wire
+          (path Top 6096
+            1123940 -815245
+            1103620 -835565
+            1103620 -856100
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1445653 -686463
+        )
+        (wire
+          (path Top 6096
+            1531320 -581660
+            1494250 -618730
+            1494250 -637866
+            1445653 -686463
+          )
+        )
+        (wire
+          (path Top 6096
+            1155944 -813301
+            1125884 -813301
+            1123940 -815245
+          )
+        )
+        (wire
+          (path Top 6096
+            1433870 -835234
+            1433870 -842259
+          )
+        )
+        (wire
+          (path Top 6096
+            1433870 -828210
+            1433870 -835234
+          )
+        )
+        (wire
+          (path Top 6096
+            1174740 -790275
+            1155944 -790275
+          )
+        )
+        (wire
+          (path Top 6096
+            1155944 -790275
+            1155944 -813301
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1201669 -847470
+        )
+        (wire
+          (path Top 5498
+            1218620 -847470
+            1218620 -833920
+          )
+        )
+        (wire
+          (path Top 6096
+            1155944 -822787
+            1164922 -822787
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1164922 -822787
+        )
+        (via "Via[0-1]_600:300_um" 1144441 -927463
+        )
+        (wire
+          (path Top 6096
+            1144260 -962405
+            1131700 -949845
+            1131700 -935145
+            1139382 -927463
+            1144441 -927463
+          )
+        )
+        (wire
+          (path Top 6096
+            1174070 -638451
+            1173480 -637861
+            1173480 -622515
+          )
+        )
+        (wire
+          (path Top 6096
+            1155944 -822787
+            1155944 -813301
+          )
+        )
+        (wire
+          (path Top 6096
+            1433870 -842259
+            1433820 -842309
+            1433820 -856300
+          )
+        )
+        (wire
+          (path Top 6096
+            1454150 -856300
+            1433820 -856300
+          )
+        )
+      )
+      (net VDDANA
+        (wire
+          (path Top 6096
+            1184900 -942245
+            1202320 -924825
+            1202320 -918920
+          )
+        )
+        (wire
+          (path Top 5498
+            1202320 -918920
+            1202620 -918920
+          )
+        )
+        (wire
+          (path Top 6096
+            1184900 -942245
+            1164795 -942245
+            1164580 -942030
+          )
+        )
+        (wire
+          (path Top 6096
+            1144260 -942405
+            1164205 -942405
+            1164580 -942030
+          )
+        )
+      )
+      (net "Net-(C5-Pad1)"
+        (wire
+          (path Top 2032
+            766485 -485670
+            709235 -485670
+          )
+        )
+        (wire
+          (path Top 2032
+            676740 -431920
+            709235 -464415
+            709235 -485670
+          )
+        )
+        (wire
+          (path Top 2032
+            766485 -485670
+            767325 -484830
+            798820 -484830
+          )
+        )
+      )
+      (net VDDCORE
+        (wire
+          (path Top 6096
+            1246666 -809574
+            1242620 -813620
+            1242620 -820369
+          )
+        )
+        (wire
+          (path Top 6096
+            1266180 -790060
+            1246666 -809574
+          )
+        )
+        (wire
+          (path Top 6096
+            1246666 -809574
+            1238460 -801369
+          )
+        )
+        (wire
+          (path Top 6096
+            1238460 -774820
+            1238460 -801369
+          )
+        )
+        (wire
+          (path Top 5498
+            1242620 -820369
+            1242620 -833920
+          )
+        )
+        (wire
+          (path Top 6096
+            1266180 -790060
+            1291365 -790060
+            1291580 -790275
+          )
+        )
+      )
+      (net GNSS_ANT
+        (wire
+          (path Top 3302
+            658500 -638780
+            632630 -638780
+            632460 -638950
+          )
+        )
+        (wire
+          (path Top 3302
+            617220 -639075
+            632335 -639075
+            632460 -638950
+          )
+        )
+      )
+      (net "Net-(C9-Pad1)"
+        (wire
+          (path Top 2032
+            766485 -505170
+            766485 -524205
+            768180 -525900
+          )
+        )
+        (wire
+          (path Top 2032
+            819140 -526060
+            799195 -526060
+            798820 -525685
+          )
+        )
+        (wire
+          (path Top 2032
+            768180 -525900
+            798605 -525900
+            798820 -525685
+          )
+        )
+      )
+      (net +2V5
+        (wire
+          (path Top 6096
+            632056 -470020
+            631395 -470020
+            613615 -487800
+          )
+        )
+        (wire
+          (path Top 6096
+            632056 -470020
+            632056 -456604
+            656740 -431920
+          )
+        )
+        (wire
+          (path Top 6096
+            638580 -470020
+            632056 -470020
+          )
+        )
+        (wire
+          (path Top 6096
+            656740 -411600
+            650240 -405100
+            650240 -391460
+          )
+        )
+        (wire
+          (path Top 6096
+            656740 -431920
+            656740 -411600
+          )
+        )
+      )
+      (net +5V
+        (wire
+          (path Top 6096
+            748180 -525900
+            670449 -525900
+            655209 -510660
+          )
+        )
+        (wire
+          (path Top 6096
+            903220 -493140
+            903220 -491169
+            871660 -459609
+            756515 -459609
+            688366 -391460
+            675640 -391460
+          )
+        )
+        (wire
+          (path Top 6096
+            645160 -510660
+            655209 -510660
+          )
+        )
+        (wire
+          (path Top 6096
+            864860 -525685
+            832214 -558331
+            780611 -558331
+            748180 -525900
+          )
+        )
+        (wire
+          (path Top 6096
+            903220 -493900
+            871435 -525685
+            864860 -525685
+          )
+        )
+        (wire
+          (path Top 6096
+            997600 -525274
+            992754 -525274
+            961380 -493900
+          )
+        )
+        (wire
+          (path Top 6096
+            997600 -525274
+            997600 -531949
+          )
+        )
+        (wire
+          (path Top 6096
+            997600 -518600
+            997600 -525274
+          )
+        )
+        (wire
+          (path Top 6096
+            903220 -493900
+            903220 -493140
+          )
+        )
+        (wire
+          (path Top 6096
+            903220 -493900
+            961380 -493900
+          )
+        )
+        (wire
+          (path Top 6096
+            1028680 -561460
+            1018631 -561460
+          )
+        )
+        (wire
+          (path Top 6096
+            1018631 -561460
+            1018631 -552980
+            997600 -531949
+          )
+        )
+      )
+      (net +BATT
+        (wire
+          (path Top 6096
+            1308760 -209445
+            1302556 -215649
+            1247140 -215649
+          )
+        )
+        (wire
+          (path Top 6096
+            997600 -478251
+            997600 -347385
+            1104095 -240890
+          )
+        )
+        (wire
+          (path Top 6096
+            1013450 -236340
+            1051550 -236340
+          )
+        )
+        (wire
+          (path Top 6096
+            658500 -658780
+            674049 -658780
+          )
+        )
+        (wire
+          (path Top 6096
+            674049 -658780
+            674049 -644722
+            676556 -642215
+          )
+        )
+        (wire
+          (path Top 6096
+            673307 -585334
+            673307 -572892
+            672035 -571620
+          )
+        )
+        (via "Via[0-1]_600:300_um" 673307 -585334
+        )
+        (wire
+          (path Bottom 6096
+            676556 -642215
+            676556 -588583
+            673307 -585334
+          )
+        )
+        (via "Via[0-1]_600:300_um" 676556 -642215
+        )
+        (wire
+          (path Top 6096
+            658500 -668780
+            658500 -658780
+          )
+        )
+        (wire
+          (path Top 6096
+            997600 -504949
+            1002847 -504949
+            1006399 -508501
+            1006399 -527548
+            1012861 -534010
+            1020147 -534010
+            1038730 -552593
+            1038730 -570140
+            1034013 -574857
+            876570 -574857
+            873333 -571620
+            672035 -571620
+          )
+        )
+        (wire
+          (path Top 6096
+            997600 -491600
+            997600 -504949
+          )
+        )
+        (wire
+          (path Top 6096
+            672035 -571620
+            672035 -551300
+          )
+        )
+        (wire
+          (path Top 6096
+            997600 -491600
+            997600 -478251
+          )
+        )
+        (wire
+          (path Top 6096
+            1308760 -209445
+            1327760 -209445
+          )
+        )
+        (wire
+          (path Top 6096
+            1247140 -202600
+            1247140 -215649
+          )
+        )
+        (wire
+          (path Top 6096
+            658500 -678780
+            658500 -668780
+          )
+        )
+        (wire
+          (path Top 6096
+            975350 -236340
+            1013450 -236340
+          )
+        )
+        (wire
+          (path Top 6096
+            900420 -236340
+            937250 -236340
+          )
+        )
+        (wire
+          (path Top 6096
+            868670 -236340
+            900420 -236340
+          )
+        )
+        (wire
+          (path Top 6096
+            975350 -236340
+            937250 -236340
+          )
+        )
+      )
+      (net XIN32
+        (wire
+          (path Top 2032
+            1160199 -850751
+            1154635 -856315
+          )
+        )
+        (wire
+          (path Top 2032
+            1188120 -848420
+            1162530 -848420
+            1160199 -850751
+          )
+        )
+        (wire
+          (path Top 2032
+            1155944 -846497
+            1160199 -850751
+          )
+        )
+        (wire
+          (path Top 2032
+            1155944 -839043
+            1155944 -846497
+          )
+        )
+      )
+      (net RESET
+        (wire
+          (path Bottom 2032
+            1535470 -802810
+            1523453 -802810
+          )
+        )
+        (wire
+          (path Top 2032
+            1250620 -833920
+            1250620 -822403
+          )
+        )
+        (wire
+          (path Top 2032
+            1300509 -825264
+            1297648 -822403
+            1250620 -822403
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1300509 -825264
+        )
+        (wire
+          (path Bottom 2032
+            1523453 -802810
+            1523453 -806566
+            1515192 -814827
+            1506394 -814827
+            1497370 -823851
+            1497370 -832669
+            1484893 -845146
+            1320391 -845146
+            1300509 -825264
+          )
+        )
+        (wire
+          (path Top 2032
+            1535470 -802810
+            1523453 -802810
+          )
+        )
+        (wire
+          (path Top 2032
+            1479550 -855925
+            1498052 -837423
+            1498052 -823169
+            1505711 -815510
+            1514488 -815510
+            1523453 -806545
+            1523453 -802810
+          )
+        )
+        (wire
+          (path Top 2032
+            1454150 -876300
+            1459175 -876300
+            1479550 -855925
+          )
+        )
+      )
+      (net VCC
+        (wire
+          (path Top 6096
+            1402080 -780080
+            1409790 -787790
+            1454304 -787790
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1454304 -769024
+            1454304 -787790
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1454304 -769024
+            1519293 -769024
+            1557320 -730997
+            1557320 -595704
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1454304 -635304
+            1454304 -769024
+          )
+        )
+        (wire
+          (path Top 6096
+            1557320 -595704
+            1557320 -581660
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1557320 -595704
+        )
+        (wire
+          (path Top 6096
+            1454304 -635304
+            1447796 -635304
+            1443020 -640080
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1454304 -635304
+        )
+        (via "Via[0-1]_600:300_um" 1454304 -787790
+        )
+      )
+      (net "Net-(C31-Pad1)"
+        (wire
+          (path Top 2032
+            1102145 -200660
+            1104095 -202610
+            1104095 -221390
+          )
+        )
+      )
+      (net +1V8
+        (wire
+          (path Top 6096
+            834005 -866260
+            838500 -861765
+            838500 -828780
+          )
+        )
+      )
+      (net /VDD
+        (wire
+          (path Top 2032
+            999440 -695515
+            999440 -704732
+          )
+        )
+        (wire
+          (path Top 2032
+            898500 -668780
+            912017 -668780
+          )
+        )
+        (wire
+          (path Top 2032
+            912017 -668780
+            938958 -695721
+            938958 -700519
+            943171 -704732
+            999440 -704732
+          )
+        )
+        (wire
+          (path Top 2032
+            1023498 -630643
+            1016600 -623745
+          )
+        )
+        (wire
+          (path Top 2032
+            999440 -686298
+            1023498 -662240
+            1023498 -630643
+          )
+        )
+        (wire
+          (path Top 2032
+            1037580 -624745
+            1029396 -624745
+            1023498 -630643
+          )
+        )
+        (wire
+          (path Top 2032
+            999440 -695515
+            999440 -686298
+          )
+        )
+      )
+      (net "Net-(D1-Pad2)"
+        (wire
+          (path Top 6096
+            687629 -470020
+            688209 -470600
+            688209 -510660
+          )
+        )
+        (wire
+          (path Top 6096
+            674580 -470020
+            687629 -470020
+          )
+        )
+        (wire
+          (path Top 6096
+            678160 -510660
+            688209 -510660
+          )
+        )
+      )
+      (net PWRKEY
+        (wire
+          (path Top 2032
+            698500 -828780
+            698500 -842297
+          )
+        )
+        (wire
+          (path Top 2032
+            710600 -876300
+            699583 -876300
+          )
+        )
+        (wire
+          (path Top 2032
+            699583 -876300
+            699583 -843380
+            698500 -842297
+          )
+        )
+      )
+      (net LEDD
+        (wire
+          (path Top 2032
+            1188120 -856420
+            1174510 -856420
+            1154510 -876420
+          )
+        )
+      )
+      (net "Net-(D7-Pad2)"
+        (wire
+          (path Top 2032
+            1103620 -876100
+            1133690 -876100
+            1134010 -876420
+          )
+        )
+      )
+      (net "Net-(D8-Pad3)"
+        (wire
+          (path Top 2032
+            956140 -630040
+            946140 -620040
+            946140 -603047
+            950116 -599071
+            972926 -599071
+            997600 -623745
+          )
+        )
+        (wire
+          (path Top 2032
+            948640 -686298
+            946411 -684069
+            946411 -639769
+            956140 -630040
+          )
+        )
+        (wire
+          (path Top 2032
+            948640 -695515
+            948640 -686298
+          )
+        )
+      )
+      (net "Net-(D8-Pad4)"
+        (wire
+          (path Top 2032
+            961340 -655720
+            955980 -650360
+          )
+        )
+        (wire
+          (path Top 2032
+            961340 -695515
+            961340 -655720
+          )
+        )
+        (wire
+          (path Top 2032
+            961340 -655720
+            988375 -655720
+            997600 -646495
+          )
+        )
+      )
+      (net "Net-(D8-Pad6)"
+        (wire
+          (path Top 2032
+            1016600 -646495
+            1016600 -641780
+            1009940 -635120
+            981540 -635120
+            956140 -609720
+          )
+        )
+        (wire
+          (path Top 2032
+            974040 -686298
+            981028 -686298
+            1016600 -650726
+            1016600 -646495
+          )
+        )
+        (wire
+          (path Top 2032
+            974040 -695515
+            974040 -686298
+          )
+        )
+      )
+      (net "Net-(C31-Pad2)"
+        (wire
+          (path Top 2032
+            1122895 -200660
+            1122895 -217688
+            1112693 -227890
+            1104095 -227890
+          )
+        )
+      )
+      (net "Net-(J2-Pad2)"
+        (wire
+          (path Top 2032
+            1397000 -510660
+            1397000 -551220
+            1422400 -576620
+          )
+        )
+        (wire
+          (path Top 2032
+            1422400 -576620
+            1447800 -576620
+          )
+        )
+      )
+      (net "Net-(C10-Pad1)"
+        (wire
+          (path Top 2032
+            617220 -656325
+            602105 -656325
+            601980 -656450
+          )
+        )
+        (wire
+          (path Top 2032
+            586740 -656325
+            601855 -656325
+            601980 -656450
+          )
+        )
+      )
+      (net "Net-(F1-Pad1)"
+        (wire
+          (path Top 6096
+            590540 -343020
+            608320 -325240
+            646785 -325240
+          )
+        )
+      )
+      (net SER1TX{slash}SDA{slash}MOSI
+        (wire
+          (path Top 2032
+            1454140 -754660
+            1452215 -754660
+            1418189 -720634
+            1418189 -714602
+            1421581 -711210
+            1429425 -711210
+          )
+        )
+        (wire
+          (path Top 2032
+            1510020 -729100
+            1484460 -754660
+            1454140 -754660
+          )
+        )
+      )
+      (net SER1RX{slash}SCL{slash}SCK
+        (wire
+          (path Top 2032
+            1429425 -704710
+            1421634 -704710
+            1413466 -712878
+            1413466 -734306
+            1433820 -754660
+          )
+        )
+        (wire
+          (path Top 2032
+            1510020 -703700
+            1509010 -704710
+            1429425 -704710
+          )
+        )
+      )
+      (net SWDIO
+        (wire
+          (path Bottom 2032
+            1433870 -814827
+            1442883 -814827
+            1445888 -817832
+            1445888 -838868
+            1444528 -840228
+            1330024 -840228
+            1307963 -818167
+            1298390 -818167
+            1269603 -846954
+            1269603 -865913
+            1261792 -873724
+            1256213 -873724
+            1247737 -865248
+            1247737 -848508
+            1212802 -813573
+            1204237 -813573
+            1202620 -815190
+          )
+        )
+        (wire
+          (path Top 2032
+            1202620 -822403
+            1202620 -815190
+          )
+        )
+        (wire
+          (path Bottom 2032
+            1433870 -802810
+            1433870 -814827
+          )
+        )
+        (wire
+          (path Top 2032
+            1202620 -833920
+            1202620 -822403
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1202620 -815190
+        )
+      )
+      (net SWDCLK
+        (wire
+          (path Top 2032
+            1459270 -802810
+            1459270 -814827
+          )
+        )
+        (wire
+          (path Top 2032
+            1459270 -814827
+            1463025 -814827
+            1471314 -823116
+            1471314 -837686
+            1466805 -842195
+            1466805 -860510
+            1460665 -866650
+            1443470 -866650
+            1433820 -876300
+          )
+        )
+        (wire
+          (path Bottom 2032
+            1209844 -820249
+            1240938 -851343
+            1240938 -864860
+            1264491 -888413
+            1304876 -888413
+          )
+        )
+        (wire
+          (path Top 2032
+            1210620 -833920
+            1210620 -821025
+            1209844 -820249
+          )
+        )
+        (wire
+          (path Top 2032
+            1304876 -888413
+            1421707 -888413
+            1433820 -876300
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1304876 -888413
+        )
+        (via "Via[0-1]_600:300_um" 1209844 -820249
+        )
+      )
+      (net "Net-(J6-Pad2)"
+        (wire
+          (path Top 2032
+            1257300 -510660
+            1257300 -566580
+          )
+        )
+      )
+      (net "Net-(J6-Pad3)"
+        (wire
+          (path Top 2032
+            1226210 -678300
+            1237327 -678300
+          )
+        )
+        (wire
+          (path Top 2032
+            1237327 -678300
+            1283820 -631807
+            1283820 -576580
+          )
+        )
+        (wire
+          (path Top 2032
+            1282700 -510660
+            1283820 -511780
+            1283820 -576580
+          )
+        )
+      )
+      (net "Net-(J7-Pad1)"
+        (wire
+          (path Top 6096
+            1092200 -510660
+            1082040 -520820
+            1082040 -576580
+          )
+        )
+      )
+      (net "Net-(J7-Pad2)"
+        (wire
+          (path Top 2032
+            1117600 -510660
+            1117600 -566580
+          )
+        )
+      )
+      (net "Net-(J7-Pad3)"
+        (wire
+          (path Top 2032
+            1083970 -678300
+            1095087 -678300
+          )
+        )
+        (wire
+          (path Top 2032
+            1095087 -678300
+            1155400 -617987
+            1155400 -576580
+          )
+        )
+        (wire
+          (path Top 2032
+            1143000 -510660
+            1155400 -523060
+            1155400 -576580
+          )
+        )
+      )
+      (net VDDOUT
+        (wire
+          (path Top 6096
+            1226620 -820370
+            1207619 -801369
+            1202460 -801369
+          )
+        )
+        (wire
+          (path Top 6096
+            1202460 -774820
+            1202460 -801369
+          )
+        )
+        (wire
+          (path Top 5498
+            1226620 -820370
+            1226620 -833920
+          )
+        )
+      )
+      (net SIMPWR
+        (wire
+          (path Top 2032
+            1258620 -833920
+            1258620 -845437
+          )
+        )
+        (wire
+          (path Top 2032
+            1211075 -867605
+            1236452 -867605
+            1258620 -845437
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1211075 -867605
+        )
+        (wire
+          (path Bottom 2032
+            755484 -880366
+            809476 -934358
+            1146968 -934358
+            1211075 -870251
+            1211075 -867605
+          )
+        )
+        (via "Via[0-1]_600:300_um" 755484 -880366
+        )
+        (wire
+          (path Top 2032
+            737200 -882800
+            753050 -882800
+            755484 -880366
+          )
+        )
+      )
+      (net ADC
+        (wire
+          (path Top 2032
+            1188120 -872420
+            1199637 -872420
+          )
+        )
+        (wire
+          (path Top 2032
+            1199637 -872420
+            1201339 -874122
+            1241632 -874122
+            1257355 -858399
+          )
+        )
+        (wire
+          (path Bottom 2032
+            1422400 -608493
+            1257355 -773538
+            1257355 -858399
+          )
+        )
+        (wire
+          (path Top 2032
+            1422400 -596620
+            1422400 -608493
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1257355 -858399
+        )
+        (via "Via[0-1]_600:300_um" 1422400 -608493
+        )
+      )
+      (net 2V5_ADC
+        (wire
+          (path Top 2032
+            1188120 -864420
+            1199637 -864420
+          )
+        )
+        (wire
+          (path Top 2032
+            1201669 -865264
+            1200481 -865264
+            1199637 -864420
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1201669 -865264
+        )
+        (wire
+          (path Bottom 2032
+            868313 -468353
+            868313 -502026
+            1208305 -842018
+            1208305 -858628
+            1201669 -865264
+          )
+        )
+        (via "Via[0-1]_600:300_um" 868313 -468353
+        )
+        (wire
+          (path Top 2032
+            676740 -411600
+            733493 -468353
+            868313 -468353
+          )
+        )
+      )
+      (net "Net-(R14-Pad1)"
+        (wire
+          (path Top 2032
+            1083970 -652900
+            1095087 -652900
+          )
+        )
+        (wire
+          (path Top 2032
+            1095087 -652900
+            1095087 -609093
+            1117600 -586580
+          )
+        )
+      )
+      (net SER1RTS{slash}SS
+        (wire
+          (path Top 2032
+            1510020 -678300
+            1490110 -698210
+            1429425 -698210
+          )
+        )
+      )
+      (net "Net-(R16-Pad1)"
+        (wire
+          (path Top 2032
+            836075 -934730
+            828757 -934730
+            825004 -938483
+            825004 -953404
+            834380 -962780
+          )
+        )
+      )
+      (net SER1CTS{slash}MISO
+        (wire
+          (path Top 2032
+            1429425 -691710
+            1441615 -691710
+            1442933 -693028
+            1469892 -693028
+            1510020 -652900
+          )
+        )
+      )
+      (net SER2TX{slash}MOSI
+        (wire
+          (path Top 2032
+            1429425 -685210
+            1437621 -685210
+            1480082 -642749
+            1480082 -540598
+            1510020 -510660
+          )
+        )
+      )
+      (net /RST
+        (wire
+          (path Top 2032
+            898500 -638780
+            912017 -638780
+          )
+        )
+        (wire
+          (path Top 2032
+            936140 -609720
+            912017 -633843
+            912017 -638780
+          )
+        )
+      )
+      (net /CLK
+        (wire
+          (path Top 2032
+            936140 -630040
+            917400 -648780
+            898500 -648780
+          )
+        )
+      )
+      (net /I{slash}O
+        (wire
+          (path Top 2032
+            935980 -650360
+            927560 -658780
+            898500 -658780
+          )
+        )
+      )
+      (net SER2RX{slash}SCK
+        (wire
+          (path Top 2032
+            1429425 -678710
+            1436768 -678710
+            1475358 -640120
+            1475358 -519922
+            1510020 -485260
+          )
+        )
+      )
+      (net SER2RTS{slash}TE{slash}SS
+        (wire
+          (path Top 2032
+            1510020 -459860
+            1470825 -499055
+            1470825 -638080
+            1436695 -672210
+            1429425 -672210
+          )
+        )
+      )
+      (net PULSE1
+        (wire
+          (path Top 2032
+            1318100 -736600
+            1318100 -749126
+          )
+        )
+        (wire
+          (path Bottom 2032
+            1258741 -867007
+            1265053 -860695
+            1265053 -802173
+            1318100 -749126
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1318100 -749126
+        )
+        (via "Via[0-1]_600:300_um" 1258741 -867007
+        )
+        (wire
+          (path Top 2032
+            1250620 -918920
+            1250620 -875128
+            1258741 -867007
+          )
+        )
+        (wire
+          (path Top 2032
+            1316310 -703700
+            1316310 -716117
+          )
+        )
+        (wire
+          (path Top 2032
+            1318100 -736600
+            1318100 -717907
+            1316310 -716117
+          )
+        )
+      )
+      (net SER2CTS{slash}MISO
+        (wire
+          (path Top 2032
+            1429425 -659210
+            1440047 -659210
+            1464774 -634483
+            1464774 -479706
+            1510020 -434460
+          )
+        )
+      )
+      (net "Net-(C14-Pad2)"
+        (wire
+          (path Top 2032
+            586740 -725405
+            601480 -725405
+            601980 -724905
+          )
+        )
+        (wire
+          (path Top 2032
+            617220 -725405
+            602480 -725405
+            601980 -724905
+          )
+        )
+      )
+      (net "Net-(R12-Pad1)"
+        (wire
+          (path Top 2032
+            1016600 -518600
+            1016600 -507283
+          )
+        )
+        (wire
+          (path Top 2032
+            1037580 -510500
+            1034363 -507283
+            1016600 -507283
+          )
+        )
+      )
+      (net "Net-(R13-Pad1)"
+        (wire
+          (path Top 2032
+            1257300 -586580
+            1257300 -632927
+            1237327 -652900
+          )
+        )
+        (wire
+          (path Top 2032
+            1226210 -652900
+            1237327 -652900
+          )
+        )
+      )
+      (net PULSE2
+        (wire
+          (path Bottom 2032
+            1258620 -905409
+            1220129 -866918
+            1220129 -842900
+            1186932 -809703
+            1186932 -746481
+          )
+        )
+        (wire
+          (path Top 2032
+            1258620 -918920
+            1258620 -905409
+          )
+        )
+        (wire
+          (path Top 2032
+            1175860 -736600
+            1185741 -746481
+            1186932 -746481
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1186932 -746481
+        )
+        (via "Via[0-1]_600:300_um" 1258620 -905409
+        )
+        (wire
+          (path Top 2032
+            1174070 -716117
+            1175860 -717907
+            1175860 -736600
+          )
+        )
+        (wire
+          (path Top 2032
+            1174070 -703700
+            1174070 -716117
+          )
+        )
+      )
+      (net /TX3V
+        (wire
+          (path Top 2032
+            1188120 -880420
+            1172759 -880420
+            1166114 -887065
+            905746 -887065
+            901411 -882730
+            893325 -882730
+          )
+        )
+      )
+      (net /RX3V
+        (wire
+          (path Top 2032
+            893325 -895730
+            1165301 -895730
+            1172611 -888420
+            1188120 -888420
+          )
+        )
+      )
+      (net /RTS3V
+        (wire
+          (path Top 2032
+            893325 -902230
+            1167265 -902230
+            1173075 -896420
+            1188120 -896420
+          )
+        )
+      )
+      (net /CTS3V
+        (wire
+          (path Top 2032
+            1188120 -904420
+            1176603 -904420
+          )
+        )
+        (wire
+          (path Top 2032
+            893325 -908730
+            1172293 -908730
+            1176603 -904420
+          )
+        )
+      )
+      (net /DCD3V
+        (wire
+          (path Top 2032
+            1226620 -907403
+            1219091 -899874
+            1201803 -899874
+          )
+        )
+        (wire
+          (path Bottom 2032
+            1178401 -914271
+            1192798 -899874
+            1201803 -899874
+          )
+        )
+        (wire
+          (path Top 2032
+            1226620 -918920
+            1226620 -907403
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1201803 -899874
+        )
+        (via "Via[0-1]_600:300_um" 1178401 -914271
+        )
+        (wire
+          (path Top 2032
+            893325 -915230
+            1177442 -915230
+            1178401 -914271
+          )
+        )
+      )
+      (net /RI3V
+        (wire
+          (path Top 2032
+            893325 -921730
+            894267 -920788
+            1191496 -920788
+          )
+        )
+        (wire
+          (path Bottom 2032
+            1206838 -932424
+            1203132 -932424
+            1191496 -920788
+          )
+        )
+        (wire
+          (path Top 2032
+            1234620 -930437
+            1208825 -930437
+            1206838 -932424
+          )
+        )
+        (wire
+          (path Top 2032
+            1234620 -918920
+            1234620 -930437
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1191496 -920788
+        )
+        (via "Via[0-1]_600:300_um" 1206838 -932424
+        )
+      )
+      (net /DTR3V
+        (wire
+          (path Top 2032
+            1242620 -918920
+            1242620 -930437
+          )
+        )
+        (wire
+          (path Top 2032
+            893325 -928230
+            977392 -928230
+            1021824 -972662
+            1200395 -972662
+            1242620 -930437
+          )
+        )
+      )
+      (net "Net-(R15-Pad2)"
+        (wire
+          (path Top 2032
+            895180 -962780
+            904792 -953168
+            904792 -938128
+            901394 -934730
+            893325 -934730
+          )
+        )
+      )
+      (net /DTR
+        (wire
+          (path Top 2032
+            836075 -928230
+            812565 -928230
+            758184 -873849
+            756046 -873849
+            744086 -861889
+            738092 -861889
+            718500 -842297
+          )
+        )
+        (wire
+          (path Top 2032
+            718500 -828780
+            718500 -842297
+          )
+        )
+      )
+      (net /RI
+        (wire
+          (path Top 2032
+            836075 -921730
+            812476 -921730
+            760062 -869316
+            758173 -869316
+            731154 -842297
+            728500 -842297
+          )
+        )
+        (wire
+          (path Top 2032
+            728500 -828780
+            728500 -842297
+          )
+        )
+      )
+      (net /DCD
+        (wire
+          (path Top 2032
+            836075 -915230
+            812387 -915230
+            739454 -842297
+            738500 -842297
+          )
+        )
+        (wire
+          (path Top 2032
+            738500 -828780
+            738500 -842297
+          )
+        )
+      )
+      (net /CTS
+        (wire
+          (path Top 2032
+            758500 -828780
+            758500 -842297
+          )
+        )
+        (wire
+          (path Top 2032
+            836075 -908730
+            824933 -908730
+            758500 -842297
+          )
+        )
+      )
+      (net /RTS
+        (wire
+          (path Top 2032
+            836075 -902230
+            828021 -902230
+            768500 -842709
+            768500 -828780
+          )
+        )
+      )
+      (net /TX
+        (wire
+          (path Top 2032
+            836075 -895730
+            828779 -895730
+            778500 -845451
+            778500 -828780
+          )
+        )
+      )
+      (net /RX
+        (wire
+          (path Top 2032
+            788500 -828780
+            788500 -842297
+          )
+        )
+        (wire
+          (path Top 2032
+            836075 -882730
+            828933 -882730
+            788500 -842297
+          )
+        )
+      )
+      (net /SER1_0
+        (wire
+          (path Top 2032
+            1284637 -904420
+            1298359 -890698
+            1298359 -885714
+            1361268 -822805
+            1361268 -714454
+            1364512 -711210
+            1372175 -711210
+          )
+        )
+        (wire
+          (path Top 2032
+            1273120 -904420
+            1284637 -904420
+          )
+        )
+      )
+      (net /SER1_1
+        (wire
+          (path Top 2032
+            1284637 -896420
+            1293826 -887231
+            1293826 -883836
+            1356735 -820927
+            1356735 -712576
+            1364601 -704710
+            1372175 -704710
+          )
+        )
+        (wire
+          (path Top 2032
+            1273120 -896420
+            1284637 -896420
+          )
+        )
+      )
+      (net /SER1_2
+        (wire
+          (path Top 2032
+            1284637 -888420
+            1289293 -883764
+            1289293 -881958
+            1352202 -819049
+            1352202 -710046
+            1364038 -698210
+            1372175 -698210
+          )
+        )
+        (wire
+          (path Top 2032
+            1273120 -888420
+            1284637 -888420
+          )
+        )
+      )
+      (net /SER1_3
+        (wire
+          (path Top 2032
+            1284637 -880420
+            1284637 -880203
+            1347669 -817171
+            1347669 -707903
+            1363862 -691710
+            1372175 -691710
+          )
+        )
+        (wire
+          (path Top 2032
+            1273120 -880420
+            1284637 -880420
+          )
+        )
+      )
+      (net /SER2_0
+        (wire
+          (path Top 2032
+            1284637 -872420
+            1343136 -813921
+            1343136 -705424
+            1363350 -685210
+            1372175 -685210
+          )
+        )
+        (wire
+          (path Top 2032
+            1273120 -872420
+            1284637 -872420
+          )
+        )
+      )
+      (net /SER2_1
+        (wire
+          (path Top 2032
+            1284637 -864420
+            1337001 -812056
+            1337001 -704111
+            1362402 -678710
+            1372175 -678710
+          )
+        )
+        (wire
+          (path Top 2032
+            1273120 -864420
+            1284637 -864420
+          )
+        )
+      )
+      (net /SER2_2
+        (wire
+          (path Top 2032
+            1284637 -856420
+            1285438 -856420
+            1332468 -809390
+            1332468 -701949
+            1362207 -672210
+            1372175 -672210
+          )
+        )
+        (wire
+          (path Top 2032
+            1273120 -856420
+            1284637 -856420
+          )
+        )
+      )
+      (net /SER2_3
+        (wire
+          (path Top 2032
+            1372175 -659210
+            1364567 -659210
+            1327934 -695843
+            1327934 -807093
+            1286607 -848420
+            1273120 -848420
+          )
+        )
+      )
+      (net "Net-(D6-Pad2)"
+        (wire
+          (path Top 2032
+            755650 -939800
+            690875 -875025
+            690875 -871375
+            679450 -859950
+          )
+        )
+      )
+      (net "Net-(D9-Pad2)"
+        (wire
+          (path Top 2032
+            654050 -879950
+            675863 -901763
+            692213 -901763
+            730250 -939800
+          )
+        )
+      )
+      (net "Net-(J3-Pad1)"
+        (wire
+          (path Top 6096
+            1484200 -368420
+            1484200 -382553
+          )
+        )
+        (wire
+          (path Bottom 6096
+            1510020 -754500
+            1484200 -728680
+            1484200 -382553
+          )
+        )
+        (via "Via[0-1]_600:300_um" 1484200 -382553
+        )
+        (wire
+          (path Top 6096
+            1433820 -774660
+            1426240 -767080
+            1402080 -767080
+          )
+        )
+        (wire
+          (path Top 6096
+            1454140 -774660
+            1433820 -774660
+          )
+        )
+        (wire
+          (path Top 6096
+            1510020 -754500
+            1489860 -774660
+            1454140 -774660
+          )
+        )
+      )
+      (net "Net-(C30-Pad1)"
+        (wire
+          (path Top 6096
+            1510020 -561245
+            1489485 -581780
+          )
+        )
+        (wire
+          (path Top 6096
+            1510020 -536060
+            1510020 -561245
+          )
+        )
+        (wire
+          (path Top 6096
+            1510020 -561245
+            1536954 -561245
+            1544320 -568611
+          )
+        )
+        (wire
+          (path Top 6096
+            1544320 -581660
+            1544320 -568611
+          )
+        )
+      )
+      (net +12V
+        (wire
+          (path Top 6096
+            1208740 -509194
+            1221641 -496293
+            1344543 -496293
+          )
+        )
+        (wire
+          (path Top 6096
+            1208740 -576580
+            1208740 -509194
+          )
+        )
+        (wire
+          (path Top 6096
+            1069040 -576580
+            1069040 -509667
+            1082651 -496056
+            1195602 -496056
+            1208740 -509194
+          )
+        )
+        (wire
+          (path Top 6096
+            1344543 -496293
+            1344543 -572983
+            1348140 -576580
+          )
+        )
+        (wire
+          (path Top 6096
+            1346200 -243196
+            1344543 -244853
+            1344543 -496293
+          )
+        )
+        (wire
+          (path Top 6096
+            1287780 -194431
+            1288337 -193874
+            1389451 -193874
+            1399830 -204253
+            1399830 -237700
+            1394334 -243196
+            1346200 -243196
+          )
+        )
+        (wire
+          (path Top 6096
+            1346200 -243196
+            1346200 -230980
+          )
+        )
+        (wire
+          (path Top 6096
+            1287780 -204480
+            1287780 -194431
+          )
+        )
+        (wire
+          (path Top 6096
+            1346200 -230980
+            1366520 -210660
+            1366520 -210605
+          )
+        )
+      )
+      (net "Net-(GSM_ANT1-PadSIG)"
+        (wire
+          (path Top 6096
+            573283 -708660
+            585235 -708660
+            586740 -707155
+          )
+        )
+      )
+      (net "Net-(D5-Pad2)"
+        (wire
+          (path Top 6096
+            1247140 -238600
+            1273689 -238600
+          )
+        )
+        (wire
+          (path Top 6096
+            1287780 -237480
+            1274809 -237480
+            1273689 -238600
+          )
+        )
+        (wire
+          (path Top 6096
+            1308760 -232195
+            1303475 -237480
+            1287780 -237480
+          )
+        )
+      )
+      (net /probe
+        (wire
+          (path Top 6096
+            809450 -203200
+            790650 -184400
+            728025 -184400
+            715826 -196599
+            715826 -241754
+            673100 -284480
+          )
+        )
+        (wire
+          (path Top 6096
+            809450 -217290
+            809450 -203200
+          )
+        )
+        (wire
+          (path Top 6096
+            809450 -203200
+            830701 -203200
+          )
+        )
+        (wire
+          (path Top 6096
+            840750 -203200
+            830701 -203200
+          )
+        )
+        (wire
+          (path Top 6096
+            840750 -203200
+            840750 -214749
+          )
+        )
+        (wire
+          (path Top 6096
+            840750 -214749
+            848670 -222669
+            848670 -236340
+          )
+        )
+      )
+      (net "Net-(D3-Pad1)"
+        (wire
+          (path Top 6096
+            675640 -378460
+            650240 -378460
+          )
+        )
+        (wire
+          (path Top 6096
+            678160 -364729
+            675640 -367249
+            675640 -378460
+          )
+        )
+        (wire
+          (path Top 6096
+            678160 -353180
+            678160 -364729
+          )
+        )
+        (wire
+          (path Top 6096
+            678160 -353180
+            678160 -326865
+            676535 -325240
+          )
+        )
+      )
+      (net "Net-(J9-Pad2)"
+        (wire
+          (path Top 2032
+            1092200 -772010
+            1080183 -772010
+          )
+        )
+        (wire
+          (path Top 2032
+            1080183 -772010
+            1069992 -782201
+            949026 -782201
+            915605 -748780
+            898500 -748780
+          )
+        )
+      )
+      (net "Net-(J9-Pad3)"
+        (wire
+          (path Top 2032
+            898500 -738780
+            912017 -738780
+          )
+        )
+        (wire
+          (path Top 2032
+            1092200 -746610
+            1080183 -746610
+          )
+        )
+        (wire
+          (path Top 2032
+            1080183 -746610
+            1075054 -741481
+            914718 -741481
+            912017 -738780
+          )
+        )
+      )
+      (net "Net-(U6-Pad19)"
+        (wire
+          (path Top 2032
+            1430020 -640080
+            1430020 -651097
+          )
+        )
+        (wire
+          (path Top 2032
+            1429425 -665710
+            1422044 -665710
+            1418528 -662194
+            1418528 -655661
+            1423092 -651097
+            1430020 -651097
+          )
+        )
+      )
+      (net "Net-(JP5-Pad2)"
+        (wire
+          (path Top 6096
+            1231900 -510660
+            1221740 -520820
+            1221740 -576580
+          )
+        )
+      )
+      (net "Net-(L5-Pad2)"
+        (wire
+          (path Top 2032
+            612000 -584200
+            608480 -587720
+            608480 -607060
+          )
+        )
+      )
+      (net "Net-(L5-Pad1)"
+        (wire
+          (path Top 2032
+            594500 -584200
+            593250 -582950
+            593250 -565150
+          )
+        )
+      )
+      (net "Net-(R20-Pad1)"
+        (wire
+          (path Top 2032
+            658500 -628780
+            643002 -628780
+            642669 -628447
+          )
+        )
+        (wire
+          (path Bottom 2032
+            669528 -870028
+            669528 -655306
+            642669 -628447
+          )
+        )
+        (wire
+          (path Top 2032
+            669528 -870028
+            679450 -879950
+          )
+        )
+        (via "Via[0-1]_600:300_um" 669528 -870028
+        )
+        (via "Via[0-1]_600:300_um" 642669 -628447
+        )
+      )
+      (net "Net-(R21-Pad1)"
+        (wire
+          (path Top 2032
+            658500 -768780
+            644983 -768780
+          )
+        )
+        (wire
+          (path Top 2032
+            644983 -768780
+            644983 -850883
+            654050 -859950
+          )
+        )
+      )
+      (net "Net-(JP11-Pad1)"
+        (wire
+          (path Top 2032
+            586740 -639075
+            586740 -615800
+            595480 -607060
+          )
+        )
+        (wire
+          (path Top 2032
+            573283 -647823
+            577992 -647823
+            586740 -639075
+          )
+        )
+        (wire
+          (path Top 2032
+            573283 -656590
+            573283 -647823
+          )
+        )
+      )
+      (net "Net-(R27-Pad2)"
+        (wire
+          (path Top 2032
+            1346200 -210980
+            1356523 -200657
+            1376517 -200657
+            1386840 -210980
+          )
+        )
+        (wire
+          (path Top 2032
+            1327760 -232195
+            1327760 -229420
+            1346200 -210980
+          )
+        )
+      )
+      (net "Net-(J2-Pad1)"
+        (wire
+          (path Top 6096
+            1371600 -510660
+            1361140 -521120
+            1361140 -576580
+          )
+        )
+      )
+    )
+  )
+)

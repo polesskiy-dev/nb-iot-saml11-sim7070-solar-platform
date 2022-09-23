@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/apolisskyi/projects/nb-iot-saml11-sim7070-solar-platform/nb-iot-saml11-sim7070-solar-platform.kicad_sch</source>
+    <date>2022 September 18, Sunday 14:55:46</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NB-IoT platform based on SAML11, SIM7070</title>
+        <company>apolisskyi</company>
+        <rev>1.0</rev>
+        <date>2022-09-18</date>
+        <source>nb-iot-saml11-sim7070-solar-platform.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="ANT1">
+      <value>U.FL-R-SMT-1</value>
+      <footprint>GHI-CONNECTORS_U.FL-R-SMT-1</footprint>
+      <libsource lib="U.FL-R-SMT-1" part="U.FL-R-SMT-1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>881ff7d2-df5b-4287-96c7-2c5c893e175b</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>BH-18650-PC</value>
+      <footprint>BAT_BH-18650-PC</footprint>
+      <fields>
+        <field name="MANUFACTURER">MPD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">21.31mm</field>
+        <field name="PARTREV">05/17/19</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="BH-18650-PC" part="BH-18650-PC" description=""/>
+      <property name="PARTREV" value="05/17/19"/>
+      <property name="MANUFACTURER" value="MPD"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="21.31mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df4f1173-e812-4bf4-a65d-f9ee809f747e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a5a8883-e04d-4ca2-88b3-1155de6fa727</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PESD3V3L1BA,115</value>
+      <footprint>SOD2512X110N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESDXL1BA_SER.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">PESD3V3L1BA,115</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pesd3v3l1ba115/nexperia?region=nac</field>
+        <field name="Description">PESD3V3L1BA - Low capacitance bidirectional ESD protection diode in SOD323</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD3V3L1BA,115</field>
+        <field name="Mouser Part Number">771-PESD3V3L1BA-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L1BA115?qs=LOCUfHb8d9tfcQwAsqvzKg%3D%3D</field>
+      </fields>
+      <libsource lib="PESD3V3L1BA_115" part="PESD3V3L1BA,115" description=""/>
+      <property name="Description" value="PESD3V3L1BA - Low capacitance bidirectional ESD protection diode in SOD323"/>
+      <property name="Height" value="1.1"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="PESD3V3L1BA,115"/>
+      <property name="Mouser Part Number" value="771-PESD3V3L1BA-T/R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L1BA115?qs=LOCUfHb8d9tfcQwAsqvzKg%3D%3D"/>
+      <property name="Arrow Part Number" value="PESD3V3L1BA,115"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pesd3v3l1ba115/nexperia?region=nac"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>173cacc2-6ff6-41f4-8a6f-7f5cfb90d953</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT60A</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37e21f04-16e1-468d-9f0c-5fe9af57b302</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SIM8066-6-1-14-01-A_REVA</value>
+      <footprint>GCT_SIM8066-6-1-14-01-A_REVA</footprint>
+      <fields>
+        <field name="MANUFACTURER">Global Connector Technology</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.44mm</field>
+        <field name="PARTREV">REVA</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="SIM8066-6-1-14-01-A_REVA" part="SIM8066-6-1-14-01-A_REVA" description=""/>
+      <property name="PARTREV" value="REVA"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.44mm"/>
+      <property name="MANUFACTURER" value="Global Connector Technology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f29e530-84aa-4314-bfd3-027048d11f1d</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_Taiyo-Yuden_MD-5050</footprint>
+      <fields>
+        <field name="Field4">HPI0530-100</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Field4" value="HPI0530-100"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa4b58cb-cce6-433c-8ca9-2dd51ee9c1e2</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BCR129W</value>
+      <footprint>Infineon-BCR129W-*</footprint>
+      <datasheet>http://www.infineon.com/dgdl/bcr129series.pdf?folderId=db3a30431400ef68011406f3ddb1012e&amp;fileId=db3a30431428a37301143f7ab7820287</datasheet>
+      <fields>
+        <field name="Component Link 1 Description">Manufacturer URL</field>
+        <field name="Component Link 1 URL">http://www.infineon.com/</field>
+        <field name="Component Link 3 Description">Package Specification</field>
+        <field name="Component Link 3 URL">http://www.infineon.com/dgdl/SOT323-Package_Overview.pdf?folderId=db3a30431936bc4b0119533e1dcb3c92&amp;fileId=db3a30431936bc4b011953495f283cb1</field>
+        <field name="Green">true</field>
+        <field name="Halogen free">true</field>
+        <field name="IC max">100 mA</field>
+        <field name="ICBO max">100 nA</field>
+        <field name="Mounting Technology">Surface Mount</field>
+        <field name="Package Description">3-Pin Small Outline Transistor Package, 1.25 x 2 mm Body, 0.65 mm Pitch</field>
+        <field name="Packing">Reel</field>
+        <field name="Polarity">NPN</field>
+        <field name="Ptot max">250 mW</field>
+        <field name="R1 typ">10 kOhm</field>
+        <field name="VCBO max">50 V</field>
+        <field name="VCEO max">50 V</field>
+        <field name="VEBO max">5 V</field>
+        <field name="Vi off max">1 100uA / 5V</field>
+        <field name="Vi on max">1.1 V</field>
+        <field name="Vi on min">0.5Â 2mA / 0.3V</field>
+        <field name="category">Trans</field>
+        <field name="ciiva ids">13242794</field>
+        <field name="fT typ">150 MHz</field>
+        <field name="hFE min">120</field>
+        <field name="imported">yes</field>
+        <field name="library id">c11d3cda3229d103</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="package">SOT323</field>
+        <field name="release date">1409237794</field>
+        <field name="vault revision">391D0A4F-B68B-4778-BCFE-4F18D47D7993</field>
+      </fields>
+      <libsource lib="eec" part="BCR129W" description=""/>
+      <property name="Component Link 1 Description" value="Manufacturer URL"/>
+      <property name="Component Link 1 URL" value="http://www.infineon.com/"/>
+      <property name="Component Link 3 Description" value="Package Specification"/>
+      <property name="Component Link 3 URL" value="http://www.infineon.com/dgdl/SOT323-Package_Overview.pdf?folderId=db3a30431936bc4b0119533e1dcb3c92&amp;fileId=db3a30431936bc4b011953495f283cb1"/>
+      <property name="Green" value="true"/>
+      <property name="Halogen free" value="true"/>
+      <property name="ICBO max" value="100 nA"/>
+      <property name="IC max" value="100 mA"/>
+      <property name="Mounting Technology" value="Surface Mount"/>
+      <property name="Package Description" value="3-Pin Small Outline Transistor Package, 1.25 x 2 mm Body, 0.65 mm Pitch"/>
+      <property name="Packing" value="Reel"/>
+      <property name="Polarity" value="NPN"/>
+      <property name="Ptot max" value="250 mW"/>
+      <property name="R1 typ" value="10 kOhm"/>
+      <property name="VCBO max" value="50 V"/>
+      <property name="VCEO max" value="50 V"/>
+      <property name="VEBO max" value="5 V"/>
+      <property name="Vi off max" value="1 100uA / 5V"/>
+      <property name="Vi on max" value="1.1 V"/>
+      <property name="Vi on min" value="0.5Â 2mA / 0.3V"/>
+      <property name="category" value="Trans"/>
+      <property name="ciiva ids" value="13242794"/>
+      <property name="library id" value="c11d3cda3229d103"/>
+      <property name="manufacturer" value="Infineon"/>
+      <property name="package" value="SOT323"/>
+      <property name="release date" value="1409237794"/>
+      <property name="vault revision" value="391D0A4F-B68B-4778-BCFE-4F18D47D7993"/>
+      <property name="fT typ" value="150 MHz"/>
+      <property name="hFE min" value="120"/>
+      <property name="imported" value="yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab3419f4-0765-4e76-a107-023763d52db6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74fc4968-4c8a-47ad-8689-e6113c5153d3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5e98060-42c8-4e05-8312-db9dbfd8bc31</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SIM7070G</value>
+      <footprint>MODULE_SIM7070G</footprint>
+      <fields>
+        <field name="MANUFACTURER">SIMCom Wireless Solutions Limited</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.5 mm</field>
+        <field name="PARTREV">V1.03</field>
+        <field name="SNAPEDA_PN">SIM7070G</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="SIM7070G" part="SIM7070G" description=""/>
+      <property name="SNAPEDA_PN" value="SIM7070G"/>
+      <property name="MANUFACTURER" value="SIMCom Wireless Solutions Limited"/>
+      <property name="PARTREV" value="V1.03"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.5 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6dc48e7-647c-458a-bf64-4e5fd9709b1e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP73832-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <libsource lib="Battery_Management" part="MCP73832-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92a70080-2544-4ad9-a24c-c4ecd3d9eb54</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP1252T-33X50I/MS</value>
+      <footprint>MSOP8_MC_MCH</footprint>
+      <libsource lib="2022-09-17_22-58-39" part="MCP1252T-33X50I{slash}MS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06aa1e4d-92ac-4d72-8828-9c1b26c8e0ac</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SPV1040T</value>
+      <footprint>SOIC_1040T_STM</footprint>
+      <libsource lib="2022-09-17_22-56-59" part="SPV1040T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f7d1a4a-efdc-4564-b872-667d04ee611f</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ATSAML11E15A-AU</value>
+      <footprint>TQFP32_MC_MCH</footprint>
+      <libsource lib="2022-09-17_20-27-11" part="ATSAML11E15A-AU" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62f41bca-7550-45a5-bbb8-dd1241be2e19</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TXB0108PWR</value>
+      <footprint>SOP65P640X120-20N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.2mm</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="TXB0108PWR" part="TXB0108PWR" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.2mm"/>
+      <property name="PARTREV" value="H"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a6beb25-7310-4c4a-a3cf-1d010efa2068</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>H11L1SR2M</value>
+      <footprint>IC_H11L1SR2M</footprint>
+      <fields>
+        <field name="MANUFACTURER">Fairchild Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.80mm</field>
+        <field name="PARTREV">3</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="H11L1SR2M" part="H11L1SR2M" description=""/>
+      <property name="PARTREV" value="3"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.80mm"/>
+      <property name="MANUFACTURER" value="Fairchild Semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nb-iot-saml11-sim7070-solar-platform.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15f86c82-9f7f-4dcc-ae44-aa1f8b154ccf</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2022-09-17_20-27-11" part="ATSAML11E15A-AU">
+      <footprints>
+        <fp>TQFP32_MC_MCH</fp>
+        <fp>TQFP32_MC_MCH-M</fp>
+        <fp>TQFP32_MC_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAML11E15A-AU</field>
+        <field name="Footprint">TQFP32_MC_MCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00/XIN32" type="input"/>
+        <pin num="2" name="PA01/XIN32" type="input"/>
+        <pin num="3" name="PA02" type="bidirectional"/>
+        <pin num="4" name="PA03" type="bidirectional"/>
+        <pin num="5" name="PA04" type="bidirectional"/>
+        <pin num="6" name="PA05" type="bidirectional"/>
+        <pin num="7" name="PA06" type="bidirectional"/>
+        <pin num="8" name="PA07" type="bidirectional"/>
+        <pin num="9" name="VDDANA" type="power_in"/>
+        <pin num="10" name="GNDANA" type="power_in"/>
+        <pin num="11" name="PA08" type="bidirectional"/>
+        <pin num="12" name="PA09" type="bidirectional"/>
+        <pin num="13" name="PA10" type="bidirectional"/>
+        <pin num="14" name="PA11" type="bidirectional"/>
+        <pin num="15" name="PA14/XOSC" type="bidirectional"/>
+        <pin num="16" name="PA15/XOUT" type="output"/>
+        <pin num="17" name="PA16" type="bidirectional"/>
+        <pin num="18" name="PA17" type="bidirectional"/>
+        <pin num="19" name="PA18" type="bidirectional"/>
+        <pin num="20" name="PA19" type="bidirectional"/>
+        <pin num="21" name="PA22" type="bidirectional"/>
+        <pin num="22" name="PA23" type="bidirectional"/>
+        <pin num="23" name="PA24" type="bidirectional"/>
+        <pin num="24" name="PA25" type="bidirectional"/>
+        <pin num="25" name="PA27" type="bidirectional"/>
+        <pin num="26" name="*RESET" type="unspecified"/>
+        <pin num="27" name="VDDCORE" type="power_in"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="VDDOUT" type="output"/>
+        <pin num="30" name="VDDIO" type="power_in"/>
+        <pin num="31" name="PA30/SWCLK" type="bidirectional"/>
+        <pin num="32" name="PA31/SWDIO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="2022-09-17_22-56-59" part="SPV1040T">
+      <footprints>
+        <fp>SOIC_1040T_STM</fp>
+        <fp>SOIC_1040T_STM-M</fp>
+        <fp>SOIC_1040T_STM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPV1040T</field>
+        <field name="Footprint">SOIC_1040T_STM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MPP-SET" type="unspecified"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="LX" type="unspecified"/>
+        <pin num="4" name="VOUT" type="output"/>
+        <pin num="5" name="VCTRL" type="unspecified"/>
+        <pin num="6" name="ICTRL_MINUS" type="unspecified"/>
+        <pin num="7" name="ICTRL_PLUS" type="unspecified"/>
+        <pin num="8" name="XSHUT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="2022-09-17_22-58-39" part="MCP1252T-33X50I{slash}MS">
+      <footprints>
+        <fp>MSOP8_MC_MCH</fp>
+        <fp>MSOP8_MC_MCH-M</fp>
+        <fp>MSOP8_MC_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1252T-33X50I{slash}MS</field>
+        <field name="Footprint">MSOP8_MC_MCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGOOD" type="unspecified"/>
+        <pin num="2" name="VOUT" type="unspecified"/>
+        <pin num="3" name="VIN" type="unspecified"/>
+        <pin num="4" name="GND" type="unspecified"/>
+        <pin num="5" name="C-" type="unspecified"/>
+        <pin num="6" name="C+" type="unspecified"/>
+        <pin num="7" name="*SHDN" type="unspecified"/>
+        <pin num="8" name="SELECT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="BH-18650-PC" part="BH-18650-PC">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BH-18650-PC</field>
+        <field name="Footprint">BAT_BH-18650-PC</field>
+        <field name="PARTREV">05/17/19</field>
+        <field name="MANUFACTURER">MPD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">21.31mm</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <pins>
+        <pin num="N" name="" type="passive"/>
+        <pin num="P" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73832-2-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73832-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT60A">
+      <description>10V 3A High Current Recitifier Schottky Diode, SOD-323</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT60A</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="H11L1SR2M" part="H11L1SR2M">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">H11L1SR2M</field>
+        <field name="Footprint">IC_H11L1SR2M</field>
+        <field name="PARTREV">3</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.80mm</field>
+        <field name="MANUFACTURER">Fairchild Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="power_in"/>
+        <pin num="6" name="" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PESD3V3L1BA_115" part="PESD3V3L1BA,115">
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESDXL1BA_SER.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD3V3L1BA,115</field>
+        <field name="Footprint">SOD2512X110N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESDXL1BA_SER.pdf</field>
+        <field name="Description">PESD3V3L1BA - Low capacitance bidirectional ESD protection diode in SOD323</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD3V3L1BA,115</field>
+        <field name="Mouser Part Number">771-PESD3V3L1BA-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L1BA115?qs=LOCUfHb8d9tfcQwAsqvzKg%3D%3D</field>
+        <field name="Arrow Part Number">PESD3V3L1BA,115</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pesd3v3l1ba115/nexperia?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SIM7070G" part="SIM7070G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SIM7070G</field>
+        <field name="Footprint">MODULE_SIM7070G</field>
+        <field name="SNAPEDA_PN">SIM7070G</field>
+        <field name="MANUFACTURER">SIMCom Wireless Solutions Limited</field>
+        <field name="PARTREV">V1.03</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.5 mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWRKEY" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="UART1_DTR" type="input"/>
+        <pin num="4" name="UART1_RI" type="output"/>
+        <pin num="5" name="UART1_DCD" type="output"/>
+        <pin num="6" name="BOOT_CFG" type="input"/>
+        <pin num="7" name="UART1_CTS" type="output"/>
+        <pin num="8" name="UART1_RTS" type="input"/>
+        <pin num="9" name="UART1_TXD" type="output"/>
+        <pin num="10" name="UART1_RXD" type="input"/>
+        <pin num="11" name="PCM_CLK" type="output"/>
+        <pin num="12" name="PCM_SYNC" type="output"/>
+        <pin num="13" name="PCM_DIN" type="input"/>
+        <pin num="14" name="PCM_DOUT" type="output"/>
+        <pin num="15" name="VDD_EXT" type="power_in"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO1/SPI_MOSI" type="bidirectional"/>
+        <pin num="20" name="GPIO2/SPI_MISO" type="bidirectional"/>
+        <pin num="21" name="GPIO3/SPI_CLK" type="bidirectional"/>
+        <pin num="22" name="DEBUG_RXD" type="input"/>
+        <pin num="23" name="DEBUG_TXD" type="output"/>
+        <pin num="24" name="USB_VBUS" type="input"/>
+        <pin num="25" name="ADC" type="input"/>
+        <pin num="26" name="NC" type="no_connect"/>
+        <pin num="27" name="USB_DP" type="bidirectional"/>
+        <pin num="28" name="USB_DM" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="SIM_VDD" type="output"/>
+        <pin num="31" name="SIM_DATA" type="bidirectional"/>
+        <pin num="32" name="SIM_CLK" type="output"/>
+        <pin num="33" name="SIM_RST" type="output"/>
+        <pin num="34" name="GPIO4" type="bidirectional"/>
+        <pin num="35" name="NC" type="no_connect"/>
+        <pin num="36" name="NC" type="no_connect"/>
+        <pin num="37" name="I2C_SDA" type="bidirectional"/>
+        <pin num="38" name="I2C_SCL" type="output"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="NC" type="no_connect"/>
+        <pin num="41" name="NC" type="no_connect"/>
+        <pin num="42" name="NC" type="no_connect"/>
+        <pin num="43" name="NC" type="no_connect"/>
+        <pin num="44" name="NC" type="no_connect"/>
+        <pin num="45" name="GND" type="power_in"/>
+        <pin num="46" name="GND" type="power_in"/>
+        <pin num="47" name="NC" type="no_connect"/>
+        <pin num="48" name="GPIO5/SPI_CS" type="bidirectional"/>
+        <pin num="49" name="UART3_RXD" type="input"/>
+        <pin num="50" name="UART3_TXD" type="output"/>
+        <pin num="51" name="NC" type="no_connect"/>
+        <pin num="52" name="NETLIGHT" type="output"/>
+        <pin num="53" name="GNSS_ANT" type="input"/>
+        <pin num="54" name="GND" type="power_in"/>
+        <pin num="55" name="VBAT" type="power_in"/>
+        <pin num="56" name="VBAT" type="power_in"/>
+        <pin num="57" name="VBAT" type="power_in"/>
+        <pin num="58" name="GND" type="power_in"/>
+        <pin num="59" name="GND" type="power_in"/>
+        <pin num="60" name="RF_ANT" type="bidirectional"/>
+        <pin num="61" name="GND" type="power_in"/>
+        <pin num="62" name="GND" type="power_in"/>
+        <pin num="63" name="GND" type="power_in"/>
+        <pin num="64" name="GND" type="power_in"/>
+        <pin num="65" name="GND" type="power_in"/>
+        <pin num="66" name="STATUS" type="output"/>
+        <pin num="67" name="GPIO6" type="bidirectional"/>
+        <pin num="68" name="GPIO7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SIM8066-6-1-14-01-A_REVA" part="SIM8066-6-1-14-01-A_REVA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SIM8066-6-1-14-01-A_REVA</field>
+        <field name="Footprint">GCT_SIM8066-6-1-14-01-A_REVA</field>
+        <field name="PARTREV">REVA</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.44mm</field>
+        <field name="MANUFACTURER">Global Connector Technology</field>
+      </fields>
+      <pins>
+        <pin num="C1" name="VCC" type="power_in"/>
+        <pin num="C2" name="RST" type="input"/>
+        <pin num="C3" name="CLK" type="input"/>
+        <pin num="C5" name="GND" type="power_in"/>
+        <pin num="C6" name="VPP" type="power_in"/>
+        <pin num="C7" name="I/O" type="bidirectional"/>
+        <pin num="CD" name="CD" type="bidirectional"/>
+        <pin num="G1" name="GND" type="power_in"/>
+        <pin num="G2" name="GND" type="power_in"/>
+        <pin num="G3" name="GND" type="power_in"/>
+        <pin num="G4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TXB0108PWR" part="TXB0108PWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXB0108PWR</field>
+        <field name="Footprint">SOP65P640X120-20N</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.2mm</field>
+        <field name="PARTREV">H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="bidirectional"/>
+        <pin num="2" name="VCCA" type="power_in"/>
+        <pin num="3" name="A2" type="bidirectional"/>
+        <pin num="4" name="A3" type="bidirectional"/>
+        <pin num="5" name="A4" type="bidirectional"/>
+        <pin num="6" name="A5" type="bidirectional"/>
+        <pin num="7" name="A6" type="bidirectional"/>
+        <pin num="8" name="A7" type="bidirectional"/>
+        <pin num="9" name="A8" type="bidirectional"/>
+        <pin num="10" name="OE" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="B8" type="bidirectional"/>
+        <pin num="13" name="B7" type="bidirectional"/>
+        <pin num="14" name="B6" type="bidirectional"/>
+        <pin num="15" name="B5" type="bidirectional"/>
+        <pin num="16" name="B4" type="bidirectional"/>
+        <pin num="17" name="B3" type="bidirectional"/>
+        <pin num="18" name="B2" type="bidirectional"/>
+        <pin num="19" name="VCCB" type="power_in"/>
+        <pin num="20" name="B1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="U.FL-R-SMT-1" part="U.FL-R-SMT-1">
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">U.FL-R-SMT-1</field>
+        <field name="Footprint">GHI-CONNECTORS_U.FL-R-SMT-1</field>
+      </fields>
+      <pins>
+        <pin num="GND1" name="" type="bidirectional"/>
+        <pin num="GND2" name="" type="bidirectional"/>
+        <pin num="SIG" name="" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="eec" part="BCR129W">
+      <docs>http://www.infineon.com/dgdl/bcr129series.pdf?folderId=db3a30431400ef68011406f3ddb1012e&amp;fileId=db3a30431428a37301143f7ab7820287</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BCR129W</field>
+        <field name="Footprint">Infineon-BCR129W-*</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/bcr129series.pdf?folderId=db3a30431400ef68011406f3ddb1012e&amp;fileId=db3a30431428a37301143f7ab7820287</field>
+        <field name="Component Link 1 Description">Manufacturer URL</field>
+        <field name="Component Link 1 URL">http://www.infineon.com/</field>
+        <field name="Component Link 3 Description">Package Specification</field>
+        <field name="Component Link 3 URL">http://www.infineon.com/dgdl/SOT323-Package_Overview.pdf?folderId=db3a30431936bc4b0119533e1dcb3c92&amp;fileId=db3a30431936bc4b011953495f283cb1</field>
+        <field name="Green">true</field>
+        <field name="Halogen free">true</field>
+        <field name="ICBO max">100 nA</field>
+        <field name="IC max">100 mA</field>
+        <field name="Mounting Technology">Surface Mount</field>
+        <field name="Package Description">3-Pin Small Outline Transistor Package, 1.25 x 2 mm Body, 0.65 mm Pitch</field>
+        <field name="Packing">Reel</field>
+        <field name="Polarity">NPN</field>
+        <field name="Ptot max">250 mW</field>
+        <field name="R1 typ">10 kOhm</field>
+        <field name="VCBO max">50 V</field>
+        <field name="VCEO max">50 V</field>
+        <field name="VEBO max">5 V</field>
+        <field name="Vi off max">1 100uA / 5V</field>
+        <field name="Vi on max">1.1 V</field>
+        <field name="Vi on min">0.5Â 2mA / 0.3V</field>
+        <field name="category">Trans</field>
+        <field name="ciiva ids">13242794</field>
+        <field name="library id">c11d3cda3229d103</field>
+        <field name="manufacturer">Infineon</field>
+        <field name="package">SOT323</field>
+        <field name="release date">1409237794</field>
+        <field name="vault revision">391D0A4F-B68B-4778-BCFE-4F18D47D7993</field>
+        <field name="fT typ">150 MHz</field>
+        <field name="hFE min">120</field>
+        <field name="imported">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2022-09-17_20-27-11">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/2022-09-17_20-27-11.lib</uri>
+    </library>
+    <library logical="2022-09-17_22-56-59">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/2022-09-17_22-56-59.lib</uri>
+    </library>
+    <library logical="2022-09-17_22-58-39">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/2022-09-17_22-58-39.lib</uri>
+    </library>
+    <library logical="BH-18650-PC">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/BH-18650-PC.lib</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="H11L1SR2M">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/H11L1SR2M.lib</uri>
+    </library>
+    <library logical="PESD3V3L1BA_115">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/PESD3V3L1BA_115.lib</uri>
+    </library>
+    <library logical="SIM7070G">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/SIM7070G.lib</uri>
+    </library>
+    <library logical="SIM8066-6-1-14-01-A_REVA">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/SIM8066-6-1-14-01-A_REVA.lib</uri>
+    </library>
+    <library logical="TXB0108PWR">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/TXB0108PWR.lib</uri>
+    </library>
+    <library logical="U.FL-R-SMT-1">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/U.FL-R-SMT-1.lib</uri>
+    </library>
+    <library logical="eec">
+      <uri>/Users/apolisskyi/Documents/KiCad/6.0/symbols/eec.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-PadC5)">
+      <node ref="J1" pin="C5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="G1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="G2" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="G3" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="G4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="45" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="46" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="54" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="58" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="59" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="61" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="62" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="63" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="64" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="65" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad55)">
+      <node ref="U1" pin="55" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="56" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="57" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="4" name="unconnected-(ANT1-PadGND1)">
+      <node ref="ANT1" pin="GND1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="unconnected-(ANT1-PadGND2)">
+      <node ref="ANT1" pin="GND2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="unconnected-(ANT1-PadSIG)">
+      <node ref="ANT1" pin="SIG" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="unconnected-(BT1-PadN)">
+      <node ref="BT1" pin="N" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(BT1-PadP)">
+      <node ref="BT1" pin="P" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(D1-Pad1)">
+      <node ref="D1" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(D1-Pad2)">
+      <node ref="D1" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(J1-PadC1)">
+      <node ref="J1" pin="C1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="16" name="unconnected-(J1-PadC2)">
+      <node ref="J1" pin="C2" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(J1-PadC3)">
+      <node ref="J1" pin="C3" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(J1-PadC6)">
+      <node ref="J1" pin="C6" pinfunction="VPP" pintype="power_in"/>
+    </net>
+    <net code="19" name="unconnected-(J1-PadC7)">
+      <node ref="J1" pin="C7" pinfunction="I/O" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(J1-PadCD)">
+      <node ref="J1" pin="CD" pinfunction="CD" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PWRKEY" pintype="input"/>
+    </net>
+    <net code="31" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="UART1_DTR" pintype="input"/>
+    </net>
+    <net code="32" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="UART1_RI" pintype="output"/>
+    </net>
+    <net code="33" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="UART1_DCD" pintype="output"/>
+    </net>
+    <net code="34" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="BOOT_CFG" pintype="input"/>
+    </net>
+    <net code="35" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="UART1_CTS" pintype="output"/>
+    </net>
+    <net code="36" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="UART1_RTS" pintype="input"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="UART1_TXD" pintype="output"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="UART1_RXD" pintype="input"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PCM_CLK" pintype="output"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PCM_SYNC" pintype="output"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PCM_DIN" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PCM_DOUT" pintype="output"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="VDD_EXT" pintype="power_in"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="GPIO1/SPI_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="GPIO2/SPI_MISO" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="GPIO3/SPI_CLK" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="DEBUG_RXD" pintype="input"/>
+    </net>
+    <net code="49" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="DEBUG_TXD" pintype="output"/>
+    </net>
+    <net code="50" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="USB_VBUS" pintype="input"/>
+    </net>
+    <net code="51" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="ADC" pintype="input"/>
+    </net>
+    <net code="52" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U1-Pad30)">
+      <node ref="U1" pin="30" pinfunction="SIM_VDD" pintype="output"/>
+    </net>
+    <net code="56" name="unconnected-(U1-Pad31)">
+      <node ref="U1" pin="31" pinfunction="SIM_DATA" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(U1-Pad32)">
+      <node ref="U1" pin="32" pinfunction="SIM_CLK" pintype="output"/>
+    </net>
+    <net code="58" name="unconnected-(U1-Pad33)">
+      <node ref="U1" pin="33" pinfunction="SIM_RST" pintype="output"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad34)">
+      <node ref="U1" pin="34" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U1-Pad35)">
+      <node ref="U1" pin="35" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-Pad36)">
+      <node ref="U1" pin="36" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-Pad37)">
+      <node ref="U1" pin="37" pinfunction="I2C_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U1-Pad38)">
+      <node ref="U1" pin="38" pinfunction="I2C_SCL" pintype="output"/>
+    </net>
+    <net code="64" name="unconnected-(U1-Pad40)">
+      <node ref="U1" pin="40" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-Pad41)">
+      <node ref="U1" pin="41" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-Pad42)">
+      <node ref="U1" pin="42" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-Pad43)">
+      <node ref="U1" pin="43" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-Pad44)">
+      <node ref="U1" pin="44" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-Pad47)">
+      <node ref="U1" pin="47" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-Pad48)">
+      <node ref="U1" pin="48" pinfunction="GPIO5/SPI_CS" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(U1-Pad49)">
+      <node ref="U1" pin="49" pinfunction="UART3_RXD" pintype="input"/>
+    </net>
+    <net code="72" name="unconnected-(U1-Pad50)">
+      <node ref="U1" pin="50" pinfunction="UART3_TXD" pintype="output"/>
+    </net>
+    <net code="73" name="unconnected-(U1-Pad51)">
+      <node ref="U1" pin="51" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-Pad52)">
+      <node ref="U1" pin="52" pinfunction="NETLIGHT" pintype="output"/>
+    </net>
+    <net code="75" name="unconnected-(U1-Pad53)">
+      <node ref="U1" pin="53" pinfunction="GNSS_ANT" pintype="input"/>
+    </net>
+    <net code="76" name="unconnected-(U1-Pad60)">
+      <node ref="U1" pin="60" pinfunction="RF_ANT" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U1-Pad66)">
+      <node ref="U1" pin="66" pinfunction="STATUS" pintype="output"/>
+    </net>
+    <net code="78" name="unconnected-(U1-Pad67)">
+      <node ref="U1" pin="67" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(U1-Pad68)">
+      <node ref="U1" pin="68" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="81" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="82" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="VBAT" pintype="power_out"/>
+    </net>
+    <net code="83" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="84" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="85" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="PGOOD" pintype="unspecified"/>
+    </net>
+    <net code="86" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="VOUT" pintype="unspecified"/>
+    </net>
+    <net code="87" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pinfunction="VIN" pintype="unspecified"/>
+    </net>
+    <net code="88" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="89" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="C-" pintype="unspecified"/>
+    </net>
+    <net code="90" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="C+" pintype="unspecified"/>
+    </net>
+    <net code="91" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="*SHDN" pintype="unspecified"/>
+    </net>
+    <net code="92" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="SELECT" pintype="unspecified"/>
+    </net>
+    <net code="93" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="MPP-SET" pintype="unspecified"/>
+    </net>
+    <net code="94" name="unconnected-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="95" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pinfunction="LX" pintype="unspecified"/>
+    </net>
+    <net code="96" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="97" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="VCTRL" pintype="unspecified"/>
+    </net>
+    <net code="98" name="unconnected-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="ICTRL_MINUS" pintype="unspecified"/>
+    </net>
+    <net code="99" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="ICTRL_PLUS" pintype="unspecified"/>
+    </net>
+    <net code="100" name="unconnected-(U4-Pad8)">
+      <node ref="U4" pin="8" pinfunction="XSHUT" pintype="unspecified"/>
+    </net>
+    <net code="101" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="PA00/XIN32" pintype="input"/>
+    </net>
+    <net code="102" name="unconnected-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="PA01/XIN32" pintype="input"/>
+    </net>
+    <net code="103" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pinfunction="PA02" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="PA03" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pinfunction="PA04" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="unconnected-(U5-Pad6)">
+      <node ref="U5" pin="6" pinfunction="PA05" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="unconnected-(U5-Pad7)">
+      <node ref="U5" pin="7" pinfunction="PA06" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="unconnected-(U5-Pad8)">
+      <node ref="U5" pin="8" pinfunction="PA07" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="unconnected-(U5-Pad9)">
+      <node ref="U5" pin="9" pinfunction="VDDANA" pintype="power_in"/>
+    </net>
+    <net code="110" name="unconnected-(U5-Pad10)">
+      <node ref="U5" pin="10" pinfunction="GNDANA" pintype="power_in"/>
+    </net>
+    <net code="111" name="unconnected-(U5-Pad11)">
+      <node ref="U5" pin="11" pinfunction="PA08" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="unconnected-(U5-Pad12)">
+      <node ref="U5" pin="12" pinfunction="PA09" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="unconnected-(U5-Pad13)">
+      <node ref="U5" pin="13" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="unconnected-(U5-Pad14)">
+      <node ref="U5" pin="14" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="115" name="unconnected-(U5-Pad15)">
+      <node ref="U5" pin="15" pinfunction="PA14/XOSC" pintype="bidirectional"/>
+    </net>
+    <net code="116" name="unconnected-(U5-Pad16)">
+      <node ref="U5" pin="16" pinfunction="PA15/XOUT" pintype="output"/>
+    </net>
+    <net code="117" name="unconnected-(U5-Pad17)">
+      <node ref="U5" pin="17" pinfunction="PA16" pintype="bidirectional"/>
+    </net>
+    <net code="118" name="unconnected-(U5-Pad18)">
+      <node ref="U5" pin="18" pinfunction="PA17" pintype="bidirectional"/>
+    </net>
+    <net code="119" name="unconnected-(U5-Pad19)">
+      <node ref="U5" pin="19" pinfunction="PA18" pintype="bidirectional"/>
+    </net>
+    <net code="120" name="unconnected-(U5-Pad20)">
+      <node ref="U5" pin="20" pinfunction="PA19" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="unconnected-(U5-Pad21)">
+      <node ref="U5" pin="21" pinfunction="PA22" pintype="bidirectional"/>
+    </net>
+    <net code="122" name="unconnected-(U5-Pad22)">
+      <node ref="U5" pin="22" pinfunction="PA23" pintype="bidirectional"/>
+    </net>
+    <net code="123" name="unconnected-(U5-Pad23)">
+      <node ref="U5" pin="23" pinfunction="PA24" pintype="bidirectional"/>
+    </net>
+    <net code="124" name="unconnected-(U5-Pad24)">
+      <node ref="U5" pin="24" pinfunction="PA25" pintype="bidirectional"/>
+    </net>
+    <net code="125" name="unconnected-(U5-Pad25)">
+      <node ref="U5" pin="25" pinfunction="PA27" pintype="bidirectional"/>
+    </net>
+    <net code="126" name="unconnected-(U5-Pad26)">
+      <node ref="U5" pin="26" pinfunction="*RESET" pintype="unspecified"/>
+    </net>
+    <net code="127" name="unconnected-(U5-Pad27)">
+      <node ref="U5" pin="27" pinfunction="VDDCORE" pintype="power_in"/>
+    </net>
+    <net code="128" name="unconnected-(U5-Pad28)">
+      <node ref="U5" pin="28" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="129" name="unconnected-(U5-Pad29)">
+      <node ref="U5" pin="29" pinfunction="VDDOUT" pintype="output"/>
+    </net>
+    <net code="130" name="unconnected-(U5-Pad30)">
+      <node ref="U5" pin="30" pinfunction="VDDIO" pintype="power_in"/>
+    </net>
+    <net code="131" name="unconnected-(U5-Pad31)">
+      <node ref="U5" pin="31" pinfunction="PA30/SWCLK" pintype="bidirectional"/>
+    </net>
+    <net code="132" name="unconnected-(U5-Pad32)">
+      <node ref="U5" pin="32" pinfunction="PA31/SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="133" name="unconnected-(U6-Pad1)">
+      <node ref="U6" pin="1" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="134" name="unconnected-(U6-Pad2)">
+      <node ref="U6" pin="2" pinfunction="VCCA" pintype="power_in"/>
+    </net>
+    <net code="135" name="unconnected-(U6-Pad3)">
+      <node ref="U6" pin="3" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="136" name="unconnected-(U6-Pad4)">
+      <node ref="U6" pin="4" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="137" name="unconnected-(U6-Pad5)">
+      <node ref="U6" pin="5" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="138" name="unconnected-(U6-Pad6)">
+      <node ref="U6" pin="6" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="139" name="unconnected-(U6-Pad7)">
+      <node ref="U6" pin="7" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="140" name="unconnected-(U6-Pad8)">
+      <node ref="U6" pin="8" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="141" name="unconnected-(U6-Pad9)">
+      <node ref="U6" pin="9" pinfunction="A8" pintype="bidirectional"/>
+    </net>
+    <net code="142" name="unconnected-(U6-Pad10)">
+      <node ref="U6" pin="10" pinfunction="OE" pintype="input"/>
+    </net>
+    <net code="143" name="unconnected-(U6-Pad11)">
+      <node ref="U6" pin="11" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="144" name="unconnected-(U6-Pad12)">
+      <node ref="U6" pin="12" pinfunction="B8" pintype="bidirectional"/>
+    </net>
+    <net code="145" name="unconnected-(U6-Pad13)">
+      <node ref="U6" pin="13" pinfunction="B7" pintype="bidirectional"/>
+    </net>
+    <net code="146" name="unconnected-(U6-Pad14)">
+      <node ref="U6" pin="14" pinfunction="B6" pintype="bidirectional"/>
+    </net>
+    <net code="147" name="unconnected-(U6-Pad15)">
+      <node ref="U6" pin="15" pinfunction="B5" pintype="bidirectional"/>
+    </net>
+    <net code="148" name="unconnected-(U6-Pad16)">
+      <node ref="U6" pin="16" pinfunction="B4" pintype="bidirectional"/>
+    </net>
+    <net code="149" name="unconnected-(U6-Pad17)">
+      <node ref="U6" pin="17" pinfunction="B3" pintype="bidirectional"/>
+    </net>
+    <net code="150" name="unconnected-(U6-Pad18)">
+      <node ref="U6" pin="18" pinfunction="B2" pintype="bidirectional"/>
+    </net>
+    <net code="151" name="unconnected-(U6-Pad19)">
+      <node ref="U6" pin="19" pinfunction="VCCB" pintype="power_in"/>
+    </net>
+    <net code="152" name="unconnected-(U6-Pad20)">
+      <node ref="U6" pin="20" pinfunction="B1" pintype="bidirectional"/>
+    </net>
+    <net code="153" name="unconnected-(U7-Pad1)">
+      <node ref="U7" pin="1" pintype="passive"/>
+    </net>
+    <net code="154" name="unconnected-(U7-Pad2)">
+      <node ref="U7" pin="2" pintype="passive"/>
+    </net>
+    <net code="155" name="unconnected-(U7-Pad4)">
+      <node ref="U7" pin="4" pintype="output"/>
+    </net>
+    <net code="156" name="unconnected-(U7-Pad5)">
+      <node ref="U7" pin="5" pintype="power_in"/>
+    </net>
+    <net code="157" name="unconnected-(U7-Pad6)">
+      <node ref="U7" pin="6" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

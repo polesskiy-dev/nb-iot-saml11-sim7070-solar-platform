@@ -1,0 +1,1 @@
+# nb-iot-saml11-sim7070-solar-platform

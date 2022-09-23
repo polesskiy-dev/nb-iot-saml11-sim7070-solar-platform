@@ -1,0 +1,143 @@
+
+(rules PCB nb-iot-saml11-sim7070-solar-platform
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 212)
+    (layer_rule Top
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule Bottom
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 203.2)
+    (clear 250.0)
+    (clear 101.6 (type smd_to_turn_gap))
+    (clear 62.4 (type smd-smd))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle Top 600.0 0.0 0.0)
+    )
+    (shape
+      (circle Bottom 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-GND" "Via[0-1]_600:300_um" GND
+  )
+  (via 
+    "Via[0-1]_600:300_um-POW" "Via[0-1]_600:300_um" POW
+  )
+  (via 
+    "Via[0-1]_600:300_um-RF" "Via[0-1]_600:300_um" RF
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (via_rule
+    GND "Via[0-1]_600:300_um-GND"
+  )
+  (via_rule
+    POW "Via[0-1]_600:300_um-POW"
+  )
+  (via_rule
+    RF "Via[0-1]_600:300_um-RF"
+  )
+  (class default
+    "Net-(C5-Pad1)" "Net-(C9-Pad1)" XIN32 RESET "Net-(C31-Pad1)" /VDD PWRKEY LEDD
+    "Net-(D7-Pad2)" "Net-(D8-Pad3)" "Net-(D8-Pad4)" "unconnected-(D8-Pad5)" "Net-(D8-Pad6)" "Net-(C31-Pad2)" "Net-(J2-Pad2)" "Net-(C10-Pad1)"
+    SER1TX{slash}SDA{slash}MOSI SER1RX{slash}SCL{slash}SCK SWDIO SWDCLK "unconnected-(J5-Pad6)" "unconnected-(J5-Pad7)" "unconnected-(J5-Pad8)" "Net-(J6-Pad2)"
+    "Net-(J6-Pad3)" "Net-(J7-Pad2)" "Net-(J7-Pad3)" "unconnected-(J8-PadC6)" "unconnected-(J8-PadCD)" SIMPWR ADC "2V5_ADC"
+    "Net-(R14-Pad1)" SER1RTS{slash}SS "Net-(R16-Pad1)" SER1CTS{slash}MISO SER2TX{slash}MOSI /RST /CLK /I{slash}O
+    SER2RX{slash}SCK SER2RTS{slash}TE{slash}SS PULSE1 SER2CTS{slash}MISO "Net-(C14-Pad2)" "Net-(R12-Pad1)" "Net-(R13-Pad1)" PULSE2
+    /TX3V /RX3V /RTS3V /CTS3V /DCD3V /RI3V /DTR3V "Net-(R15-Pad2)"
+    /DTR /RI /DCD /CTS /RTS /TX /RX "unconnected-(U2-Pad1)"
+    "unconnected-(U3-Pad1)" "/SER1_0" "/SER1_1" "/SER1_2" "/SER1_3" "/SER2_0" "/SER2_1" "/SER2_2"
+    "/SER2_3" "unconnected-(U7-Pad11)" "unconnected-(U9-Pad6)" "unconnected-(U9-Pad11)" "unconnected-(U9-Pad12)" "unconnected-(U9-Pad13)" "unconnected-(U9-Pad14)" "unconnected-(U9-Pad16)"
+    "unconnected-(U9-Pad19)" "unconnected-(U9-Pad20)" "unconnected-(U9-Pad21)" "unconnected-(U9-Pad24)" "unconnected-(U9-Pad25)" "unconnected-(U9-Pad26)" "unconnected-(U9-Pad27)" "unconnected-(U9-Pad28)"
+    "unconnected-(U9-Pad34)" "unconnected-(U9-Pad35)" "unconnected-(U9-Pad36)" "unconnected-(U9-Pad37)" "unconnected-(U9-Pad38)" "unconnected-(U9-Pad40)" "unconnected-(U9-Pad41)" "unconnected-(U9-Pad42)"
+    "unconnected-(X1-Pad1)" "unconnected-(U9-Pad43)" "unconnected-(U9-Pad44)" "unconnected-(U9-Pad47)" "unconnected-(U9-Pad48)" "unconnected-(U9-Pad49)" "unconnected-(U9-Pad50)" "unconnected-(U9-Pad51)"
+    "Net-(D6-Pad2)" "unconnected-(U9-Pad67)" "unconnected-(U9-Pad68)" "Net-(D9-Pad2)" "Net-(J9-Pad2)" "Net-(J9-Pad3)" "Net-(U6-Pad19)" "Net-(L5-Pad2)"
+    "Net-(L5-Pad1)" "Net-(R20-Pad1)" "Net-(R21-Pad1)" "Net-(JP11-Pad1)" "Net-(R27-Pad2)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+  (class GND
+    GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+  (class POW
+    "Net-(BT1-PadP)" VDDIO VDDANA VDDCORE +2V5 +5V +BATT VCC
+    +1V8 "Net-(D1-Pad2)" "Net-(F1-Pad1)" "Net-(J7-Pad1)" VDDOUT "Net-(J3-Pad1)" "Net-(C30-Pad1)" +12V
+    "Net-(GSM_ANT1-PadSIG)" "Net-(D5-Pad2)" /probe "Net-(D3-Pad1)" "Net-(JP5-Pad2)" "Net-(J2-Pad1)"
+    (clearance_class POW)
+    (via_rule POW)
+    (rule
+      (width 609.6)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+  (class RF
+    "RF_ANT" "GNSS_ANT"
+    (clearance_class RF)
+    (via_rule RF)
+    (rule
+      (width 330.2)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+)
