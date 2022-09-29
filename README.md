@@ -24,8 +24,7 @@
 
 ### Board:
 ![](docs/nb-iot-saml11-sim7070-solar-platform-board-animation.gif)
-![](docs/board-top-view.png)
-![](docs/board-bottom-view.png)
+<img src="docs/board-top-view.png" width="400"/> <img src="docs/board-bottom-view.png" width="405"/>
 
 ### Enclosure:
 Gainta G113
